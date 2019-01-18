@@ -12,12 +12,12 @@ body {
 }
 
 h1 {
-    font-size: 16.5rem;
+    font-size: 1.5rem;
     color: rgb(21, 89, 190);
 }
 
 h2 {
-    font-size: 14.0rem;
+    font-size: 1.2rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -25,7 +25,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 200px;
+    max-width: 500px;
 }
 
 header, footer, footer a {
@@ -41,5 +41,5 @@ header img {
 }
 
 footer {
-    font-size: 10.5rem;
+    font-size: 1.1rem;
 }
