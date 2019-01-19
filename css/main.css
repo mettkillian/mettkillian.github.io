@@ -12,12 +12,12 @@ body {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgba(245, 245, 245, 0.658);
 }
 
 h2 {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -41,5 +41,5 @@ header img {
 }
 
 footer {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
