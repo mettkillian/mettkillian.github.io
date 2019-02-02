@@ -8,8 +8,8 @@ body {
 }
 
 h1 {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 40px;
+    line-height: 60px;
     font-weight: bold;
     text-align: center;
     color: #F8F8FF;    
@@ -27,7 +27,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 header, footer, footer a {
@@ -37,7 +37,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: 120px;
+    width: 180px;
     height: auto;
     float: left;
 }
@@ -47,8 +47,8 @@ footer {
 }
 
 .motto {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 18px;
+    line-height: 24px;
     font-family: Calligraffitti;
     color: #00FF00;
 
