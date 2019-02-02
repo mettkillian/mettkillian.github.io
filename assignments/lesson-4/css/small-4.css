@@ -15,8 +15,8 @@ body {
 }
 
 h1 {
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 33px;
+    line-height: 35px;
     font-weight: bold;
     text-align: right;
     color: #F8F8FF;    
@@ -32,7 +32,7 @@ h2 {
 }
 
 header, main, footer {
-    margin: 1.5rem auto;
+    margin: 1.0rem auto;
     padding: .5rem; 
     
 }
@@ -44,7 +44,7 @@ header, footer, footer a {
 }
 
 header img {
-    height: 100px;
+    height: 97px;
     width: auto;
     float: left;
 }
@@ -54,7 +54,7 @@ footer {
 }
 
 .motto {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     font-family: Calligraffitti;
     color:	#ADFF2F;
@@ -63,15 +63,10 @@ footer {
 }
 
 ul {
-    list-style-type: none;
     font-family: Catamaran;
     background-color: #3cb371;
-    text-align: center;    
+    list-style: none;   
 }
     
 
-nav {
-    text-align: center;
-    font-weight: bold;
-        
-}
+
