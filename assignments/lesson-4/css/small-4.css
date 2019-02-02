@@ -8,8 +8,8 @@ body {
 }
 
 h1 {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 32px;
     font-weight: bold;
     text-align: center;
     color: #F8F8FF;    
@@ -37,7 +37,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: 180px;
+    width: 120px;
     height: auto;
     float: left;
 }
@@ -47,8 +47,8 @@ footer {
 }
 
 .motto {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 18px;
     font-family: Calligraffitti;
     color: #00FF00;
     text-align: right
