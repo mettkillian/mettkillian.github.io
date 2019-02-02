@@ -1,0 +1,55 @@
+* { margin: 0; box-sizing: border-box; } 
+
+body { 
+    font-size: 15px; 
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #87CEFA;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #F8F8FF;    
+    
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #F8F8FF;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 400px;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: #6495ED;
+    color: #0000CD;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    float: left;
+}
+
+footer {
+    font-size: 0.7rem;
+}
+
+.motto {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Calligraffitti;
+    color: #00FF00;
+
+}
