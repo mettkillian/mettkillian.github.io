@@ -1,6 +1,10 @@
-* {margin: 0; box-sizing: border-box;}
-    
+/** {margin: 0; box-sizing: border-box;}
+*/
+
+@media screen and (max-width: 500px) {
 body{
+    width: 100%;
+    min-width: 320px;
     font-size: 15px; 
     line-height: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -8,8 +12,8 @@ body{
     text-align: center;    
     margin: 0 auto;
     float: none;
-    max-width: 360px;
-  
+    
+}
 }
 
 
@@ -92,13 +96,13 @@ ul {
 
 .herodiv {
     position: relative;
-    width: 360px;
+    /**width: 360px;*/
     height: 300px;       
     
 }
 
 .heroph {
-    margin: 10px auto;
+    
     width: 100%;
     height: auto;
     
