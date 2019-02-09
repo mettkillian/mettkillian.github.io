@@ -10,12 +10,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #9cc8e9;
     text-align: center;    
-    margin: 0 auto;
-    float: none;
-    
+            
    } 
 }
 
+ 
 
 header, footer, footer a {
     text-align: center;
@@ -24,6 +23,16 @@ header, footer, footer a {
     /**width: 100%;
     */
 }
+
+h1 {
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;   
+    
+}
+
 
 .motto {
 
@@ -37,9 +46,9 @@ header, footer, footer a {
 
 
 header img {
-    
+    height:  80px;
     float: left;
-    height: 70px;
+    
         
 }
 
@@ -59,11 +68,7 @@ h3 {
     color: #FFFFFF;}
 
 
-nav {
-    background-color: #1E6C29;
- 
 
-}  
 
 .herodiv {
     position: relative;
