@@ -99,25 +99,6 @@ h3 {
 }
 
 
-a:link {
-    color: #ffffff;
-  }
-  
-  
-  a:visited {
-    color: blue;
-  }
-  
-  
-  a:hover {
-    color: hotpink;
-  }
-  
- 
-  a:active {
-    color: orange;
-  }
-
 
 footer {
     font-size: 0.6rem;
@@ -129,3 +110,27 @@ footer {
     line-height: 34px;
     color: #FFFFFF;
 }
+
+nav {
+    height: 150px;
+    width: 100%;
+    background-color: green;
+
+}
+
+ul {
+    list-style-type: none;
+   
+    
+  }
+  
+  li a.active {
+    color: #ffffff;
+  }
+      
+  /*li a {
+    display: block;
+    width: 50%;
+   
+    
+  }
