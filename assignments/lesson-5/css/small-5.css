@@ -1,8 +1,8 @@
-/** {margin: 0; box-sizing: border-box;}
-*/
 
 @media screen and (max-width: 500px) {
-body{
+
+    body {
+    
     width: 100%;
     min-width: 320px;
     font-size: 15px; 
@@ -13,45 +13,9 @@ body{
     margin: 0 auto;
     float: none;
     
-}
-}
-
-
-h1 {
-    font-size: 28px;
-    line-height: 30px;
-    font-weight: bold;
-    text-align: right;
-    color: #FFFFFF;   
-    
+   } 
 }
 
-
-
-h2 {
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: bold;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-h3 {    
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: normal;
-    text-align: center;
-    color: #FFFFFF;}
-
-nav {
-    background-color: #1E6C29;
-}  
-
-header, main, footer {
-    margin: 0rem auto;
-    padding:.6rem; 
-    
-}
 
 header, footer, footer a {
     text-align: center;
@@ -61,38 +25,37 @@ header, footer, footer a {
     */
 }
 
-header img {
-    
-    height: 87px;
-    width: auto;
-    float: left;
-    
-}
-
-footer {
-    font-size: 0.6rem;
-}
-
 .motto {
+
     font-size: 16px;
-    line-height: 18px;
+    line-height: 30px;
     font-family: Calligraffitti;
     color:	#FFFF00;
-    text-align: right
+    text-align: center;
 
 }
 
-ul {
-    font-family: Catamaran;
-    display: inline;
-    list-style: none;   
+
+header img {
+    
+    float: left;
+    height: 70px;
+        
 }
 
-.townname {
-    font-family: Catamaran;
-    font-size: 24px;
-
+h2 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
 }
+
+nav {
+    background-color: #1E6C29;
+    /* unvisited link */
+
+}  
 
 .herodiv {
     position: relative;
@@ -103,8 +66,8 @@ ul {
 
 .heroph {
     
-    width: 100%;
-    height: auto;
+   width: 100%
+    
     
 }
 
@@ -119,4 +82,29 @@ ul {
     font-size: 14px;
     line-height: 16px;
     text-align: left;
+}
+
+/* unvisited link */
+a:link {
+    color: #ffffff;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: orangered;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+footer {
+    font-size: 0.6rem;
 }
