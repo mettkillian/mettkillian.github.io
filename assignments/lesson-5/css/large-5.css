@@ -33,13 +33,30 @@ ul {
     padding: 20px;
   }
 
-  .a {
-    color: #FFFFFF;
-  }
+  
 
   nav {
       height: 30px;
       width: 100%;
       background-color: green;
 
+  }
+
+  a:link {
+    color: #ffffff;
+  }
+  
+  
+  a:visited {
+    color: blue;
+  }
+  
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+ 
+  a:active {
+    color: orange;
   }
