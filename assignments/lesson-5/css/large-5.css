@@ -42,21 +42,10 @@ ul {
 
   }
 
-  a:link {
+  li a.active {
     color: #ffffff;
   }
   
   
-  a:visited {
-    color: blue;
-  }
   
   
-  a:hover {
-    color: hotpink;
-  }
-  
- 
-  a:active {
-    color: orange;
-  }
