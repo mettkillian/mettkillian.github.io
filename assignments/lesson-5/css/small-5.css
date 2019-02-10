@@ -1,10 +1,8 @@
 
- @media only screen and (min-width: 320px) {
+ @media only screen and (min-width: 310px) {
 
-    body {
-    
-    
-    max-width: 500px;
+    body {   
+        
     font-size: 15px; 
     line-height: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -12,19 +10,29 @@
     text-align: center;    
             
    } 
-}
 
- 
+ header {
 
-header, footer, footer a {
     text-align: center;
     background-color: #0000FF;
     color: #F8F8FF;
-    /**width: 100%;
-    */
+    height: 85px;
+    width: 100%;
+
+ }
+
+footer, footer a {
+
+    text-align: center;
+    background-color: #0000FF;
+    color: #F8F8FF;
+    height: 30px;
+    width: 100%;
+    
 }
 
 h1 {
+
     font-size: 28px;
     line-height: 30px;
     font-weight: bold;
@@ -32,7 +40,6 @@ h1 {
     color: #FFFFFF;   
     
 }
-
 
 .motto {
 
@@ -44,15 +51,14 @@ h1 {
 
 }
 
-
 header img {
     height:  80px;
-    float: left;
-    
+    float: left; 
         
 }
 
 h2 {
+
     font-size: 20px;
     line-height: 25px;
     font-weight: bold;
@@ -60,17 +66,18 @@ h2 {
     color: #FFFFFF;
 }
 
-h3 {    
+h3 {  
+
     font-size: 16px;
     line-height: 18px;
     font-weight: normal;
     text-align: center;
-    color: #FFFFFF;}
+    color: #FFFFFF;
 
-
-
+}
 
 .herodiv {
+
     position: relative;
     /**width: 360px;*/
     height: 400px;       
@@ -81,11 +88,11 @@ h3 {
     
       width: 100%;
       height: auto;
-    
-    
+      
 }
 
 .weathersummary {
+
     position: absolute;
     top: 22px;
     left: 25px;
@@ -98,13 +105,13 @@ h3 {
     text-align: left;
 }
 
-
-
 footer {
+
     font-size: 0.6rem;
 }
 
 .townname {
+
     font-family: Catamaran;
     font-size: 28px;
     line-height: 34px;
@@ -112,25 +119,74 @@ footer {
 }
 
 nav {
-    height: 150px;
+
+    height: 155px;
     width: 100%;
-    background-color: green;
+    background-color: rgb(78, 170, 24);
 
 }
 
 ul {
+
     list-style-type: none;
-   
-    
+    margin: 0;
+       
   }
   
   li a.active {
+
     color: #ffffff;
+
   }
       
-  /*li a {
+  li  {
+
     display: block;
-    width: 50%;
-   
-    
+    width: 100%;  
+       
   }
+
+  .days {
+
+      display: none;
+  }
+
+
+  .forecast {
+
+    display: none;
+  }
+
+ }
+
+  .atitle {
+
+      color: #000000;
+      background-color: #FFFFFF;
+      margin: none;
+      padding: none;
+      text-align: center;
+      font-size: 24px;
+      line-height: 28px;
+      
+  }
+
+  .appic img {
+
+      width: 100;
+      height: auto;
+      margin: none;
+  }
+
+  article {
+
+      color: #000000;
+      background-color: #FFFFFF;
+      text-align: left;
+      column-width: 260px;
+      padding: 10px;
+      margin: none;
+  }
+
+
+  

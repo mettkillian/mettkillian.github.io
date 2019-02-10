@@ -2,7 +2,7 @@
 
 
 
- @media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 550px) {
 
     body {
     
@@ -16,38 +16,57 @@
     float: none;
     
    } 
-}
+  
+   nav {
 
-    
+    height: 30px;
+    width: 100%;
+    background-color: rgb(78, 170, 24);
 
-/*ul {
+   }
+  
+  ul {
+
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    width: 100%;
-
-    
+      
   }
   
-  li {
-    
-    display: inline;
+  li  {   
+
+    display: inline; 
     padding: 20px;
-  }
-
-  
-
-  nav {
-      height: 30px;
-      width: 100%;
-      background-color: green;
 
   }
 
   li a.active {
+
     color: #ffffff;
+
   }
   
-  
-  
-  
+  .days{
+
+      height: 30px;
+      width: 782px;
+      background-color: blue;
+      font-family: Catamaran;
+      font-size: 26px; 
+      color: #FFFFFF;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;       
+
+  }
+  .forecast {
+      
+      height: 130px;
+      width: 800px;
+      background-color: #FFFFFF;
+      display: block;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;     
+
+  }
+}
