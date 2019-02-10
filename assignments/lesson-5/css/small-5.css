@@ -151,10 +151,15 @@ ul {
       display: none;
   }
 
-
   .forecast {
 
     display: none;
+  }
+
+  .fiveday {
+
+      display: none;
+
   }
 
  }
@@ -187,6 +192,41 @@ ul {
       padding: 10px;
       margin: none;
   }
+
+  aside {
+
+    height: 150px;
+    width: 100%;
+    background-color: rgb(78, 170, 24);
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Catamaran;
+    font-size: 16px;
+    line-height: 18px;
+    
+  }
+
+  .map-responsive {
+
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+
+ .map-responsive iframe {
+
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    
+}
+  
+    
+  
 
 
   
