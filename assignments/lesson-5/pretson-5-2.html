@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="The local weather for Preston, Idaho.">
+      <meta name="author" content="Dainon Snow">
+      <title>My Town Weather Site</title>
+      <link href="https://fonts.googleapis.com/css?family=Calligraffitti%7cCatamaran" rel="stylesheet">
+      <link href="css/normalize.css" rel="stylesheet" type="text/css">
+      <link href="css/small-5.css" rel="stylesheet" type="text/css">
+      <link href="css/large-5.css" rel="stylesheet" type="text/css">
+     
+    </head>
+
+    <body>
+        
+        <header>
+            
+            <h1><img src="images/openimg.png" alt="weather site logo image">Mytown Weather</h1>
+            <div class="motto">It's always a sunny day somewhere!</div>
+
+            
+        </header>
+     
+        <nav>
+            <button onlick="menuToggle()">&#9776;</button>"       
+            <ul> 
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="https://mettkillian.github.io/assignments/lesson-5/preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Gallery</a></li>                     
+            </ul>                 
+                
+        </nav> 
+   
+    
+    
+    <p class="townname">Preston, Idaho</p>
+
+
+        <div class="herodiv">
+            
+                <div class="heroph">
+                        <img src="images/20180531_161908.jpg" alt="Spanish Oaks Golf Course Hole #10">
+                </div>
+
+        <section class="weathersummary">
+            <h3>Current Conditions</h3>
+            <p>Temperature: 66&deg;F</p>
+            <p>Skies: Clear</p>
+            <p>Wind: NW 3mph</p>
+            <p>Humidity: 26%</p>
+        </section>
+        </div>
+
+        <table class="fctable">
+            <p class="fcpar">5 Day Forecast</p>
+            <tr>
+                <th class="fcth">Monday</th>
+                <th class="fcth">Tuesday</th>
+                <th class="fcth">Wednesday</th>
+                <th class="fcth">Thursday</th>
+                <th class="fcth">Friday</th> 
+            </tr>
+            
+            <tr>
+                <td class="tdicon"><img src="images/mon.jpg" alt="monday weather icon"></td>
+                <td class="tdicon"><img src="images/tues.jpg" alt="tuesday weather icon"></td>
+                <td class="tdicon"><img src="images/wed.jpg" alt="wednesday weather icon"></td>
+                <td class="tdicon"><img src="images/thurs.jpg" alt="thursday weather icon"></td>
+                <td class="tdicon"><img src="images/fri.jpg" alt="friday weather icon"></td>
+            </tr>
+            
+            <tr>
+                <td class="tdtemp"><span>72&deg;</span></td>
+                <td class="tdtemp"><span>70&deg;</span></td>
+                <td class="tdtemp"><span>64&deg;</span></td>
+                <td class="tdtemp"><span>61&deg;</span></td>
+                <td class="tdtemp"><span>67&deg;</span></td>
+            </tr>
+
+        </table>
+        
+
+        <br>
+        
+      
+    <article>
+          <div class="atitle">2019 Temple and Family History Leadership Instruction</div>
+          <h4>by LDS Church News</h4>  
+          <p><img src="images/artimage.jpg" alt="quorum of the twelve members">Three Apostles will address ward and stake leaders and members with temple and family history callings and responsibilities 
+             in a live-streamed event on <a href ="www.lds.org/familyhistory">lds.org/familyhistory</a> on February 28. Elder David A. Bednar, Elder Gary E. Stevenson, and 
+             Elder Dale G. Renlund of the Quorum of the Twelve Apostles will provide messages of instruction and inspiration on understanding
+             the responsibilities of your calling, how family history can be used to strengthen families, and how to organize family history service in your ward.                
+             All stake presidencies, bishoprics, stake high councilors with responsibilities for temple and family history work, Relief Society presidencies, 
+             elders quorum presidencies, ward temple and family history leaders, and temple and family history consultants are invited to view the live 
+             video stream on Thursday, February 28, 2019, from 7:00 p.m. to 8:00 p.m. mountain standard time, available in English, Spanish, Portuguese, and French.                
+             For those unable to view the live stream, the instruction session will also be archived for on-demand viewing on 
+             <a href ="www.lds.org/familyhistory">lds.org/familyhistory.</a></p>
+        
+    </article>
+
+    <br>
+
+        <aside>
+        <p><div id="googleMap" style="width:250px;height:300px;"></div>MyTown Weather</p>        
+        
+        </aside>
+    
+    <br>
+
+    
+        <footer>
+            <p>&copy; 2019 All Rights Reserved | MyTown Weather | Date Placeholder</p>
+        </footer>
+
+        <script>
+            function myMap() {
+            var mapProp= {
+              center:new google.maps.LatLng(51.508742,-0.120850),
+              zoom:5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+            </script>
+            
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3UXghjX0vPHPlVpaIIj_e55cb5rHQaHc&callback=myMap"></script>
+            
+
+    </body>
+</html>

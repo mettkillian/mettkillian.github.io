@@ -2,7 +2,7 @@
 
 
 
- @media only screen and (min-width: 550px) {
+ @media only screen and (min-width: 900px) {
 
     body {
     
@@ -17,35 +17,26 @@
     
    } 
   
-   nav {
+ 
+   nav button {
 
-    height: 30px;
-    width: 100%;
-    background-color: rgb(78, 170, 24);
-    border: 1px solid black;
+    display: none;
 
    }
   
-  ul {
+    
+  nav li  {   
 
-    list-style-type: none;
-    margin: 0;
-      
-  }
-  
-  li  {   
-
-    display: inline; 
+    display: inline-block; 
     padding: 20px;
 
   }
 
-  li a.active {
+  nav ul.hide {
 
-    color: #ffffff;
+    display: inline-block;
 
-  }
-  
+   }
   
 
   /* table styles*/
@@ -94,4 +85,15 @@
     color: #FFFFFF;
 }
 
+aside p {
+  float: left;
+  margin: 25px;
+
+  
+}
+
+div#googleMap {
+  float: right;
+  margin: 25px;
+}
 }
