@@ -2,18 +2,18 @@
 
 
 
- @media only screen and (min-width: 900px) {
+ @media only screen and (min-width: 600px) {
 
     body {
     
-    max-width: 1024px;
+    max-width: 1028px;
     font-size: 15px; 
     line-height: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #9cc8e9;
     text-align: center;    
     margin: 0 auto;
-    float: none;
+    /*float: none;*/
     
    } 
   
@@ -27,18 +27,14 @@
     
   nav li  {   
 
-    display: inline-block; 
-    padding: 20px;
+    display: inline; 
+    margin: 40px;
+    border-bottom: none;
+            
 
   }
 
-  nav ul.hide {
-
-    display: inline-block;
-
-   }
-  
-
+   
   /* table styles*/
 
 .fctable {
@@ -85,15 +81,19 @@
     color: #FFFFFF;
 }
 
-aside p {
-  float: left;
-  margin: 25px;
 
+aside p {
+
+  display: inline-block;
+  margin-top: 80px;
   
-}
+  }
+
 
 div#googleMap {
   float: right;
-  margin: 25px;
+  right: 80px;
+  top: 60px;
+  
 }
 }

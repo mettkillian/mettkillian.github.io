@@ -7,8 +7,8 @@
     line-height: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #9cc8e9;
-    text-align: center;    
-            
+    text-align: center; 
+           
    } 
 
  header {
@@ -33,6 +33,7 @@ footer {
     width: 100%;
     line-height: 20px;       
     border: 1px solid black;
+    padding: none;
        
     
 }
@@ -212,7 +213,7 @@ nav ul  {
 
   aside {
 
-    height: 300px;
+    height: 330px;
     width: 100%;
     background-color: rgb(78, 170, 24);
     color: #FFFFFF;
@@ -220,10 +221,12 @@ nav ul  {
     font-family: Catamaran;
     font-size: 16px;    
     border: 1px solid black;
+    padding: none;
     
     
   }
 
+  
   h4 {
       text-align: center;
       font-weight: normal;
@@ -232,7 +235,7 @@ nav ul  {
 
   div#googleMap {
 
-    width: 300px;
+    width: 350px;
     height: 200px;
     margin: auto;
     border: 1px solid black;
