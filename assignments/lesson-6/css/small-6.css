@@ -32,8 +32,7 @@ footer {
     /*height: 30px;*/
     width: 100%;
     line-height: 20px;       
-    border: 1px solid black;
-          
+    border: 1px solid black;          
     
 }
 
@@ -56,13 +55,11 @@ h1 {
     color:	#FFFF00;
     text-align: center;
     
-
 }
 
 header img {
-    height:  25px;
-    
-        
+    height:  25px;    
+       
 }
 
 h2 {
@@ -114,7 +111,6 @@ picture img {
     text-align: left;
 }
 
-
 .townname {
 
     font-family: Catamaran;
@@ -134,7 +130,6 @@ nav ul.hide {
 
     display: none;
 }
-
 
 nav ul  {
     
@@ -182,10 +177,6 @@ nav ul  {
 
   }
 
-  
-
-
-
   .atitle {
 
       color: #000000;
@@ -225,8 +216,7 @@ nav ul  {
     font-family: Catamaran;
     font-size: 16px;    
     border: 1px solid black;
-        
-    
+           
   }
 
   aside img {
@@ -244,7 +234,7 @@ nav ul  {
   
   
 
-  }
+ 
 
 
 
