@@ -37,6 +37,13 @@
    
   /* table styles*/
 
+
+  .smview {
+
+    display: block;
+
+  }
+
 .fctable {
 
   margin: auto;  
