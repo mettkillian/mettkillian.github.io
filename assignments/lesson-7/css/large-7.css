@@ -109,11 +109,31 @@ div.gallery {
     
   grid-template-columns: 1fr 1fr 1fr;
   
+
+  
+  
 }
  
-div.gallery img:hover {
+figure:hover {
 
-  box-shadow: 3px 3px 3px cornflowerblue;
+  box-shadow: 4px 4px 4px cornflowerblue;
   
+
+}
+
+figure {
+
+  border: 1px solid black;
+  padding-top: 20px;
+  background-color: white;
+
+
+}
+figure img {
+
+  border: none;
+
+  
+
 }
 }

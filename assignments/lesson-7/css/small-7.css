@@ -252,13 +252,17 @@ nav ul  {
   div.gallery {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 10px;
+       
 
   }
 
+  
   figure img {
 
-    border: 1px solid black;
+   border: 1px solid black; 
     
+
   }
   
   
