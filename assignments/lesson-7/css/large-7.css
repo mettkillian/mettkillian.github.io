@@ -107,17 +107,13 @@ aside img {
 
 div.gallery {
     
-  grid-template-columns: 1fr 1fr 1fr;
-  
-
-  
+  grid-template-columns: 1fr 1fr 1fr;  
   
 }
  
 figure:hover {
 
-  box-shadow: 4px 4px 4px cornflowerblue;
-  
+  box-shadow: 4px 4px 4px cornflowerblue;  
 
 }
 
@@ -127,13 +123,11 @@ figure {
   padding-top: 20px;
   background-color: white;
 
-
 }
+
 figure img {
 
-  border: none;
-
-  
+  border: none;  
 
 }
 }

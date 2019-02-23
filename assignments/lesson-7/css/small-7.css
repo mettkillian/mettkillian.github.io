@@ -50,8 +50,6 @@ h1 {
     
 }
 
-
-
 .motto h2 {
 
     font-size: 18px;
@@ -60,7 +58,6 @@ h1 {
     color:	#FFFF00;
     text-align: center;
     margin-bottom: 20px;
-
     
 }
 
@@ -68,7 +65,6 @@ header img {
     height:  50px;
     align-self: center; 
     margin-right: 4px;
-
        
 }
 
@@ -79,6 +75,7 @@ h2 {
     font-weight: bold;
     text-align: center;
     color: #FFFFFF;
+    
 }
 
 h3 {  
@@ -140,9 +137,9 @@ button {
 
   color: white;
   background: transparent;
-  border:bottom
-
+  
 }
+
 nav ul.hide {
 
     display: none;
