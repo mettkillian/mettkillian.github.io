@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Storm Tracking Form">
+      <meta name="author" content="Dainon Snow">
+      <title>My Town Weather Site Storm Tracker</title>
+      <link href="https://fonts.googleapis.com/css?family=Calligraffitti%7cCatamaran" rel="stylesheet">
+      <link href="css/normalize.css" rel="stylesheet" type="text/css">
+      <link href="css/small-8.css" rel="stylesheet" type="text/css">
+      <link href="css/medium-8.css" rel="stylesheet" type="text/css">
+      <link href="css/large-8.css" rel="stylesheet" type="text/css">
+     
+    </head>
+
+    <body>
+        
+        <header>
+                <img src="images/openimg.png" alt="weather site logo image">
+           
+            <div class="motto"> <h1>Mytown Weather</h1><h2>It's always a sunny day somewhere!</h2></div>
+
+            
+        </header>
+     
+        <nav>
+            <button onclick="menuToggle()">&#9776; Menu</button>    
+            <ul id="primaryNav" class="hide">            
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-8.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-8.html">Gallery</a></li>                     
+            </ul>                 
+                
+        </nav> 
+
+        <br>
+
+        <main>
+
+        <form action="thanks.html" method="get"> 
+            <fieldset>
+                <legend>Personal Contact Info:</legend>
+                <label>First Name: <em>(required)</em></label> 
+                <br>
+                <input type="text" name="firstName" required pattern="[A-Za-z]{5,40}" size="41"><br>
+                <label>Last Name: <em>(required)</em></label>
+                <br>
+                <input type="text" name="lastName" required pattern="[A-Za-z]{5,40}" size="41"><br>
+                <label>Email:</label>
+                <br>
+                <input type="email" name="mail" placeholder="address@mail.com" size="35"><br>
+                <label>Phone Number: <em>(required)</em></label>
+                <br>
+                <input type="tel" name="phone" required pattern="[0-9]{10}" size="11"><br>
+                <label>Zipcode: <em>(required)</em></label>
+                <br>
+                <input type="text" name="zip" required pattern="[0-9]{5}" size="6"><br>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Storm Tracking Info:</legend>
+                <label>Date:</label>
+                <br>
+                <input type="date" name="date" ><br>
+                <label>Storm Type:</label>
+                <br>
+                <input type="text" name="stormType" list="stype">
+                <datalist id="stype">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunder Storm"></option>
+                    <option value="Tornado"></option>
+                </datalist><br>
+                <label>Storm Severity <em>(1 to 10)</em><label>
+                <br>
+                <input type="range" name="range" value="5" min="1" max="10" step="1" id="rating" oninput="adjustRating(this.value)" 
+                        onchange="adjustRating(this.value)">
+		                <span id="ratingvalue">5</span><br>
+                <label>Storm Region</label>
+                <br>
+                <select name="region">
+                    <option value="0" disabled selected>Select Region</option>
+                    <option value="1">Preston</option> 
+                    <option value="2">Soda Springs</option>
+                    <option value="3">Fish Haven</option>               
+                    
+                </select>
+                <br>
+                <label>In danger?</label>
+                <br>
+                <input type="radio" name="danger"><span>Yes </span>                
+                <input type="radio" name="danger"><span>No</span>   
+                <input type="radio" name="danger"><span>Maybe</span>   
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Info:</legend>
+                <textarea name="text"></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" name="submitbutton" value="Submit">
+            <input type="hidden" name="hidden" value="thanks.html">       
+             
+        
+      
+        </form>
+
+        </main>
+
+        <br>
+
+        <aside>
+            
+            <p>MyTown Weather <br>
+             123 This street<br>
+             Preston, Idaho 83263<br>
+             email: weather@mytown.org<br>
+            </p>
+            
+            <img src="images/gmap.jpg" alt="google map">
+            
+               
+        
+        </aside> 
+        
+        
+        
+        
+        <footer>
+                <p>&copy; 2019 All Rights Reserved | MyTown Weather | <span id="todaysdate"></span><br></p>
+            </footer>              
+               
+                <script src="scripts/hamburger.js"></script>
+                <script src="scripts/todaysdate.js"></script> 
+                <script src="scripts/slider.js"></script>              
+                
+    
+        </body>
+    </html>
