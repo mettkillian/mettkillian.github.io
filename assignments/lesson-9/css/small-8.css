@@ -1,0 +1,306 @@
+
+*{margin: 0; box-sizing: border-box;}
+
+    body {   
+        
+    font-size: 15px; 
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #9cc8e9;
+    text-align: center; 
+           
+   } 
+
+ header {
+
+    text-align: center;
+    background-color: #0000FF;
+    color: #F8F8FF;    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+
+ }
+
+footer {
+
+    text-align: center;
+    background-color: #0000FF;
+    color: #F8F8FF;    
+    width: 100%;
+    line-height: 20px;       
+    border: 1px solid black;          
+    
+}
+
+h1 {
+
+    font-size: 33px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-bottom: 4px; 
+    
+}
+
+.motto h2 {
+
+    font-size: 18px;    
+    font-family: Calligraffitti;
+    color:	#FFFF00;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+header img {
+
+    height:  50px;
+    align-self: center; 
+    margin-right: 4px;
+       
+}
+
+h2 {
+
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+h3 {  
+
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.herodiv {
+
+    position: relative;    
+    height: 500px;       
+    
+}
+
+picture img {
+    
+      width: 100%;
+      height: auto;
+      border: 1px solid black;
+      
+}
+
+.weathersummary {
+
+    position: absolute;
+    top: 22px;
+    right: 25px;
+    border: 1px solid #FFFFFF;
+    padding: .5rem;
+    font-family: Catamaran;
+    color: #FFFFFF; 
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.townname {
+
+    font-family: Catamaran;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+
+}
+
+nav {
+    
+    background-color: rgb(78, 170, 24);
+    border: 1px solid black;
+
+}
+
+button {
+
+  color: white;
+  background: transparent;
+  
+}
+
+nav ul.hide {
+
+    display: none;
+}
+
+nav ul  {
+    
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+           
+  }
+
+  nav li {
+
+      border-top: 1px solid black;
+      width: 100%; 
+
+  }
+
+  nav li:hover {
+
+    color: #FFF;
+    background-color: darkblue;
+
+  }
+
+  li.active {
+
+    background-color: rgb(70, 133, 161);
+    color: #FFF
+
+  }
+      
+  nav li a {
+
+    text-decoration: none;
+    color: #FFF;
+
+   }
+
+  .smview {
+
+    display: none;
+
+  }
+
+  table {
+
+    display: none;
+
+  }
+
+  .atitle {
+
+      color: #000000;
+      background-color: #FFFFFF;      
+      text-align: center;
+      font-size: 30px;
+      line-height: 32px;
+      margin-bottom: 0px;
+      
+  }
+
+  article img {
+
+      float: right;
+      
+  }
+
+  article {
+
+      color: #000000;
+      background-color: #FFFFFF;
+      text-align: center;
+      padding: 10px;
+      text-align: left;
+      margin-top: 15px;
+      border: 1px solid black;
+      
+  }
+
+  aside {
+
+    height: 330px;
+    width: 100%;
+    background-color: rgb(78, 170, 24);
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Catamaran;
+    font-size: 16px;    
+    border: 1px solid black;
+           
+  }
+
+  aside img {
+
+    border: 1px solid black;
+    
+  }
+  
+  h4 {
+
+      text-align: center;
+      font-weight: normal;
+      
+  }
+
+  div.gallery {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+       
+  }
+
+  
+  figure img {
+
+   border: 1px solid black;     
+
+  }
+
+
+  
+  textarea {
+
+    height: 175px;
+    width: 300px;
+        
+  }
+
+  fieldset {
+   
+    margin: 0 auto;
+    text-align: left;
+        
+  }
+
+  form {
+
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Catamaran;
+    color: darkblue;
+    
+  }
+
+    
+  
+
+ 
+
+
+
+
+
+  
+    
+  
+
+
+  
