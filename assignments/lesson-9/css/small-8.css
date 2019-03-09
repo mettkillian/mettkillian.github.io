@@ -255,15 +255,12 @@ nav ul  {
     grid-gap: 10px;
            
   }
-
   
   figure img {
 
    border: 1px solid black;     
 
   }
-
-
   
   textarea {
 
@@ -294,26 +291,29 @@ nav ul  {
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template-columns: 1fr; 
-         
+    grid-template-columns: 1fr;          
         
   } 
 
   section.towninfo article:nth-child(1) {
     order:3;
+
   }
 
   section.towninfo article:nth-child(2) {
     order:1;
+
   }
 
   section.towninfo article:nth-child(3) {
     order:2;
+
   }
 
   .towninfo h2 {
     color: red;
     font-weight: bold;
+
   }
 
   .townbox1, .townbox2, .townbox3 {    
@@ -327,12 +327,12 @@ nav ul  {
 
   .towninfo article img {
     max-width: 100%;    
-    float: none;
-    
+    float: none;    
     
   }
 
   .towninfo article {
+
     max-width: 200px;
     font-size: 12px;
     text-align: center;
