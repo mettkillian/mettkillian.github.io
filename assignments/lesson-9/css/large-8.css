@@ -135,4 +135,16 @@ figure img {
   border: none;  
 
 }
+
+section {
+  margin: 0 auto;
+  
+}
+
+.towninfo {
+
+  grid-template-columns: 1fr 1fr 1fr;  
+  height: 500px;
+  width: 75%;
+}
 }

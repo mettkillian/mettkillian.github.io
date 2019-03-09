@@ -253,7 +253,7 @@ nav ul  {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-       
+           
   }
 
   
@@ -289,8 +289,62 @@ nav ul  {
     
   }
 
+  .towninfo {
+           
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr; 
+         
+        
+  } 
+
+  section.towninfo article:nth-child(1) {
+    order:3;
+  }
+
+  section.towninfo article:nth-child(2) {
+    order:1;
+  }
+
+  section.towninfo article:nth-child(3) {
+    order:2;
+  }
+
+  .towninfo h2 {
+    color: red;
+    font-weight: bold;
+  }
+
+  .townbox1, .townbox2, .townbox3 {    
+        
+    border: 1px solid black;
+    height: 350px;
+    width: 200px;
+    background-color: rgb(223, 217, 217);               
+
+  }
+
+  .towninfo article img {
+    max-width: 100%;    
+    float: none;
     
+    
+  }
+
+  .towninfo article {
+    max-width: 200px;
+    font-size: 12px;
+    text-align: center;
+    height: 375px;
+    
+  }
+ 
+ 
   
+
+
+
 
  
 
