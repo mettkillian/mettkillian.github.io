@@ -1,0 +1,14 @@
+
+@media (min-width: 768px) {
+
+
+
+
+
+ div.gallery {
+    
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+}
