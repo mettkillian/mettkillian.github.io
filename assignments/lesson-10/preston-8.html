@@ -58,11 +58,11 @@
 
         <section class="weathersummary">
             <h2>Current Conditions</h2>
-            <p>Temperature: <span id="Temperature">42</span>&deg;F</p>
-            <p>Skies: Clear</p>
-            <p>Windspeed: <span id="Wind">10</span>MPH</p>
-            <p>Humidity: 26%</p>
-            <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+            <p>Temperature: <span id="current-temp"></span>&deg; F</p>
+            <p>Skies: <span id="current-skies"></span></p>
+            <p>Windspeed: <span id="current-speed"></span> MPH</p>
+            <p>Humidity: <span id="current-humidity"></span>%</p>
+            <p>Wind Chill: <span id="current-chill"></span>&deg; F</p>
         </section>
         </div>
 
@@ -73,30 +73,33 @@
         <br>
 
         <table class="fctable">
-            
+            <thead>
             <tr>
-                <th class="fcth">Monday</th>
-                <th class="fcth">Tuesday</th>
-                <th class="fcth">Wednesday</th>
-                <th class="fcth">Thursday</th>
-                <th class="fcth">Friday</th> 
+                <th class="fcth" id="fcth1"></th>
+                <th class="fcth" id="fcth2"></th>
+                <th class="fcth" id="fcth3"></th>
+                <th class="fcth" id="fcth4"></th>
+                <th class="fcth" id="fcth5"></th>
+            </tr>
+
+            </thead>
+            <tbody>
+            <tr>
+                <td class="tdicon"><img src="#" id="tdicon1" alt="weather icon"></td>
+                <td class="tdicon" id="tdicon2"><img src="#" alt="weather icon"></td>
+                <td class="tdicon" id="tdicon3"><img src="#" alt="weather icon"></td>
+                <td class="tdicon" id="tdicon4"><img src="#" alt="weather icon"></td>
+                <td class="tdicon" id="tdicon5"><img src="#" alt="weather icon"></td>
             </tr>
             
             <tr>
-                <td class="tdicon"><img src="images/mon.jpg" alt="monday weather icon"></td>
-                <td class="tdicon"><img src="images/tues.jpg" alt="tuesday weather icon"></td>
-                <td class="tdicon"><img src="images/wed.jpg" alt="wednesday weather icon"></td>
-                <td class="tdicon"><img src="images/thurs.jpg" alt="thursday weather icon"></td>
-                <td class="tdicon"><img src="images/fri.jpg" alt="friday weather icon"></td>
+                <td class="tdtemp" id="tdtemp1"><span></span>&deg;</td>
+                <td class="tdtemp" id="tdtemp2"><span></span>&deg;</td>
+                <td class="tdtemp" id="tdtemp3"><span></span>&deg;</td>
+                <td class="tdtemp" id="tdtemp4"><span></span>&deg;</td>
+                <td class="tdtemp" id="tdtemp5"><span></span>&deg;</td>
             </tr>
-            
-            <tr>
-                <td class="tdtemp"><span>72&deg;</span></td>
-                <td class="tdtemp"><span>70&deg;</span></td>
-                <td class="tdtemp"><span>64&deg;</span></td>
-                <td class="tdtemp"><span>61&deg;</span></td>
-                <td class="tdtemp"><span>67&deg;</span></td>
-            </tr>
+            </tbody>
 
         </table>
 
@@ -151,6 +154,7 @@
             <script src="scripts/hamburger.js"></script>
             <script src="scripts/todaysdate.js"></script>
             <script src="scripts/windchill.js"></script>
+            <script src="scripts/weatherapi.js"></script>
             
 
     </body>
