@@ -1,7 +1,7 @@
 
 let weatherRequest = new XMLHttpRequest();
 
-weatherRequest.open('GET', "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
+weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
 weatherRequest.send();
 
 weatherRequest.onload = function() {
@@ -29,7 +29,7 @@ weatherRequest.onload = function() {
 
 let forecastRequest = new XMLHttpRequest();
 
-forecastRequest.open('GET', "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
+forecastRequest.open('GET', "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
 forecastRequest.send();
 
 forecastRequest.onload = function() {
