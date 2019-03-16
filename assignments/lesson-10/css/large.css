@@ -48,6 +48,13 @@
 
   }
 
+  .weathersummary {
+
+    
+    top: 30px;
+    right: 135px;
+
+  }
  .fctable {
 
   margin: auto;  
@@ -80,6 +87,12 @@
   background-color: white;
   height: 100px;
   
+}
+
+#tdicon1, #tdicon2, #tdicon3, #tdicon4, #tdicon5 {
+
+  width: 100%;
+
 }
 
 .tdtemp {
