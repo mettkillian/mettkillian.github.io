@@ -60,6 +60,8 @@
   background-color: darkblue;  
   border: 1px solid black;
   color: #ffffff;
+  width: 120px;
+
 
 }
 
@@ -71,9 +73,12 @@
 
 }
 
+
+
 .tdicon {
 
   background-color: white;
+  height: 100px;
   
 }
 
@@ -92,6 +97,7 @@
     font-size: 28px;
     line-height: 34px;
     color: #FFFFFF;
+    
 }
 
 aside p {

@@ -36,21 +36,22 @@ forecastRequest.onload = function() {
     let forecastData = JSON.parse(forecastRequest.responseText);
     console.log(forecastData);
     
-        tempry = [];
-        datery = [];
-        iconry = [];
+        var tempry = [];
+        var datery = [];
+        var iconry = [];
 
     for (i=1; i<forecastData.list.length; i++) {
         dtext=forecastData.list[i].dt_txt;
-        if (dtext.includes("06:00:00")) {
+        if (dtext.includes("18:00:00")) {
             let temperature = forecastData.list[i].main.temp;
+            temperature =Math.round(temperature);
             tempry.push(temperature);
             let date = new Date(forecastData.list[i].dt*1000); 
             var wday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
             var currentdate= wday[date.getDay()];
             datery.push(currentdate);
             var iconcode = forecastData.list[i].weather["0"].icon;
-            var iconimg = "https://openweathermap.org/img/w/"+ iconcode +".png";
+            var iconimg = "https://openweathermap.org/img/w/" + iconcode + ".png";
             iconry.push(iconimg);
         }  
         continue;
@@ -62,16 +63,16 @@ forecastRequest.onload = function() {
     document.getElementById("fcth4").innerHTML = datery[3];
     document.getElementById("fcth5").innerHTML = datery[4];
 
-    document.getElementById("tdicon1").innerHTML = iconry[0];
-    document.getElementById("tdicon2").innerHTML = iconry[1];
-    document.getElementById("tdicon3").innerHTML = iconry[2];
-    document.getElementById("tdicon4").innerHTML = iconry[3];
-    document.getElementById("tdicon5").innerHTML = iconry[4];
+    document.getElementById("tdicon1").src = iconry[0];
+    document.getElementById("tdicon2").src = iconry[1];
+    document.getElementById("tdicon3").src = iconry[2];
+    document.getElementById("tdicon4").src = iconry[3];
+    document.getElementById("tdicon5").src = iconry[4];
 
-    document.getElementById('tdtemp1').innerHTML = tempry[0];
-    document.getElementById('tdtemp2').innerHTML = tempry[1];
-    document.getElementById('tdtemp3').innerHTML = tempry[2];
-    document.getElementById('tdtemp4').innerHTML = tempry[3];
-    document.getElementById('tdtemp5').innerHTML = tempry[4];
+    document.getElementById('tdtemp1').innerHTML = tempry[0] + "&deg";
+    document.getElementById('tdtemp2').innerHTML = tempry[1] + "&deg";
+    document.getElementById('tdtemp3').innerHTML = tempry[2] + "&deg";
+    document.getElementById('tdtemp4').innerHTML = tempry[3] + "&deg";
+    document.getElementById('tdtemp5').innerHTML = tempry[4] + "&deg";
 
 }
