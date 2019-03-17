@@ -6,7 +6,7 @@
 
    
     top: 30px;
-    right: 175px;
+    right: 120px;
 
   }
 
@@ -15,6 +15,11 @@
     
     grid-template-columns: 1fr 1fr;
     
+  }
+
+  .townevent {
+    height: 400px;
+
   }
 
 }
