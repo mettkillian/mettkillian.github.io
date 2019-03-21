@@ -129,7 +129,7 @@ aside {
 aside p {
 
   display: inline-block;
-  margin-top: 65px;
+  margin-top: 25px;
   margin-left: 70px;
       
   }
@@ -194,6 +194,7 @@ section {
 .myVideo {
 
   width: 80%;
-  box-shadow: 5px 5px 5px cornflowerblue
+  box-shadow: 5px 5px 5px cornflowerblue;
+  border-radius: 15px;
 
 }
