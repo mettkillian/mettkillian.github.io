@@ -106,6 +106,7 @@ picture img {
       height: auto;
       border: 1px solid black;
       box-shadow: 5px 5px 5px cornflowerblue;
+      border-radius: 10px;
       
 }
 
@@ -123,7 +124,7 @@ picture img {
     text-align: left;
     max-width: 100%;
     background: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(9, 26, 82, 0.8) 20%, rgba(11, 46, 17, 0.9) );
- 
+    border-radius: 8px;
 }
 
 .weathersummary h2{
@@ -231,6 +232,7 @@ nav ul  {
       width: 50%;
       margin-left: 3px;
       box-shadow: 3px 3px 3px cornflowerblue;
+      border-radius: 8px;
 
       
   }
@@ -350,7 +352,8 @@ nav ul  {
   }
 
   .towninfo h2 {
-    color: #002266;
+    background-color: #002266;
+    color: #FFFFFF;
     font-weight: bold;
 
   }
@@ -396,8 +399,7 @@ nav ul  {
 
     height: 330px;
     width: 80%;     
-    display: block;
-    font-family: Catamaran;
+    display: block;    
     font-size: 16px;    
     border: 1px solid black;
     margin-bottom: 20px;
@@ -415,7 +417,7 @@ nav ul  {
     
 
   .townevent h4 {
-    font-weight: bold;
+    font-weight: normal;
     font-family: Catamaran;
     margin-bottom: 5px;
     color: #002266;
