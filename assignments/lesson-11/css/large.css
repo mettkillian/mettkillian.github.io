@@ -30,18 +30,17 @@
   nav ul  {   
 
     display: flex; 
-    flex-direction: row;
-    /*margin: 40px;
-    border-bottom: none;*/          
+    flex-direction: row;            
 
   }
 
   nav li {
 
     border-top: none;
-
+  
   }
 
+  
  .smview {
 
    display: block;

@@ -177,8 +177,8 @@ nav ul  {
   nav li {
 
       border-top: 1px solid black;
-      width: 100%; 
-
+      width: 100%;
+            
   }
 
   nav li:hover {
@@ -309,6 +309,8 @@ nav ul  {
    
     margin: 0 auto;
     text-align: left;
+    background-color: #e6f9ff;
+    
         
   }
 
