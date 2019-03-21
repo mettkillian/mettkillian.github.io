@@ -1,0 +1,199 @@
+
+
+
+
+ @media only screen and (min-width: 950px) {
+
+    body {
+    
+    max-width: 1028px;
+    font-size: 15px; 
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #9cc8e9;
+    text-align: center;    
+    margin: 0 auto;
+        
+   } 
+   
+   nav button {
+
+    display: none;
+
+   }
+
+   nav ul.hide {
+    display: flex; 
+    flex-direction: row;
+   }
+      
+  nav ul  {   
+
+    display: flex; 
+    flex-direction: row;
+    /*margin: 40px;
+    border-bottom: none;*/          
+
+  }
+
+  nav li {
+
+    border-top: none;
+
+  }
+
+ .smview {
+
+   display: block;
+   margin-bottom: 5px;
+   font-family: Catamaran;
+
+  }
+
+  .weathersummary {
+
+    
+    top: 30px;
+    right: 135px;
+
+  }
+
+ .fctable {
+
+  margin: auto;  
+  display: inline-block;
+  border: solid 1px black;
+  box-shadow: 4px 4px 4px cornflowerblue;
+  margin-bottom: 15px;
+  
+ } 
+
+.fcth {
+
+  background-color: #002266;  
+  border: 1px solid black;
+  color: #ffffff;
+  width: 120px;
+
+
+}
+
+.fctd { 
+  
+  border: 1px solid black;
+  font-size: 20px;
+  line-height: 25px;
+
+}
+
+
+
+.tdicon {
+
+  background-color: white;
+  height: 100px;
+  border: solid 1px black;
+  
+}
+
+#tdicon1, #tdicon2, #tdicon3, #tdicon4, #tdicon5 {
+
+  width: 100%;
+
+}
+
+.tdtemp {
+
+  background-color: #00802b;
+  font-family: Catamaran;
+  color: white;
+  border: 1px solid black;
+
+}
+
+.fcpar {
+
+    font-family: Catamaran;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    
+}
+
+aside {
+
+  height: 250px;
+
+}
+
+aside p {
+
+  display: inline-block;
+  margin-top: 65px;
+  margin-left: 70px;
+      
+  }
+
+aside img {
+
+  float: right;
+  margin-right: 80px;
+  margin-top: 22px;
+    
+}
+
+div.gallery {
+  
+  
+  grid-template-columns: 1fr 1fr 1fr;  
+  
+}
+ 
+figure:hover {
+
+  box-shadow: 4px 4px 4px cornflowerblue;  
+
+}
+
+figure {
+
+  border: 1px solid black;
+  padding-top: 20px;
+  background-color: white;
+
+}
+
+figure img {
+
+  border: none;  
+
+}
+
+section {
+  
+  margin: 0 auto;
+  
+}
+
+.towninfo {
+
+  grid-template-columns: 1fr 1fr 1fr;  
+  height: 500px;
+  width: 75%;
+
+}
+
+.townevent {
+
+  height: 450px;
+  
+}
+
+}
+
+.myVideo {
+
+  width: 80%;
+  box-shadow: 5px 5px 5px cornflowerblue
+
+}

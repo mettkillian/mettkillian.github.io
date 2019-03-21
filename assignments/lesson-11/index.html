@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Index or Landing Page">
+      <meta name="author" content="Dainon Snow">
+      <title>My Town Weather Site</title>
+      <link href="https://fonts.googleapis.com/css?family=Calligraffitti%7cCatamaran" rel="stylesheet">
+      <link href="css/normalize.css" rel="stylesheet" type="text/css">
+      <link href="css/small.css" rel="stylesheet" type="text/css">
+      <link href="css/medium.css" rel="stylesheet" type="text/css">
+      <link href="css/large.css" rel="stylesheet" type="text/css">
+     
+    </head>
+
+    <body>
+        
+        <header>
+                <img src="images/openimg.png" alt="weather site logo image">
+           
+            <div class="motto"> <h1>Mytown Weather</h1><h2>It's always a sunny day somewhere!</h2></div>
+
+            
+        </header>
+     
+        <nav>
+            <button onclick="menuToggle()">&#9776; Menu</button>    
+            <ul id="primaryNav" class="hide">            
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>                     
+            </ul>             
+                       
+        </nav> 
+
+       
+        <main> 
+            <br>
+
+            <p class="townname">Serving All of Southeastern Idaho</p>
+
+            <video autoplay muted loop class="myVideo">
+                    <source src="video/Rainy_Street.mp4" type="video/mp4">
+                    
+            </video>
+
+          <!----  <picture>
+
+                    <img src="images/dusk.jpg" alt="cloudy sky at dusk" sizes="100vw" srcset="images/dusk500.jpg 500w, 
+                    images/dusk768.jpg 768w, images/dusk950.jpg 950w">
+
+            </picture>
+
+            <div class="phlabel">February sunset at dusk. Photo submitted by April Snow.</div>-->
+
+            <div class="phlabel">Media courtesy of Coverr.co</div>
+
+            <section class="towninfo">
+
+                
+
+
+
+            </section>
+
+        
+
+        </main>
+
+
+
+        <aside>
+            
+            <p>MyTown Weather <br>
+             123 This Street<br>
+             Preston, Idaho 83263<br>
+             email: weather@mytown.org<br>
+            </p>
+            
+            <img src="images/gmap.jpg" alt="google map">
+            
+               
+        
+        </aside> 
+        
+        
+        
+        
+        <footer>
+                <p>&copy; 2019 All Rights Reserved | MyTown Weather | <span id="todaysdate"></span><br></p>
+            </footer>              
+               
+                <script src="scripts/hamburger.js"></script>
+                <script src="scripts/todaysdate.js"></script>                
+                <script src="scripts/towndata.js"></script>  
+                             
+                
+    
+        </body>
+
+        
+    </html>

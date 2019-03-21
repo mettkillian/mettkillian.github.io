@@ -1,0 +1,453 @@
+
+*{margin: 0; box-sizing: border-box;}
+
+    body {   
+        
+    font-size: 15px; 
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient( #4d4dff, #66ccff);
+    text-align: center; 
+           
+   } 
+
+ header {
+
+    text-align: center;
+    background-color: #002266;
+    color: #F8F8FF;    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+
+ }
+
+footer {
+
+    text-align: center;
+    background-color: #002266;
+    color: #F8F8FF;    
+    width: 100%;
+    line-height: 20px;       
+    border: 1px solid black;
+    border-top: 0;
+
+    
+}
+
+main {
+
+  background-color: white;
+  
+
+}
+h1 {
+
+    font-size: 33px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-bottom: 4px; 
+    
+}
+
+.motto h2 {
+
+    font-size: 18px;    
+    font-family: Calligraffitti;
+    color:	#FFFF00;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+header img {
+
+    height:  50px;
+    align-self: center; 
+    margin-right: 4px;
+       
+}
+
+h2 {
+
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #002266;
+    
+}
+
+h3 {  
+
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: #002266;
+
+}
+
+.herodiv {
+
+    position: relative;    
+    height: 425px;       
+    
+}
+
+picture img {
+    
+      width: 80%;
+      height: auto;
+      border: 1px solid black;
+      box-shadow: 5px 5px 5px cornflowerblue;
+      
+}
+
+.weathersummary {
+
+    position: absolute;
+    top: 10px;
+    right: 75px;
+    border: 1px solid #FFFFFF;
+    padding: .5rem;
+    font-family: Catamaran;
+    color: white; 
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    max-width: 100%;
+    background: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(9, 26, 82, 0.8) 20%, rgba(11, 46, 17, 0.9) );
+ 
+}
+
+.weathersummary h2{
+
+  color: #FFFFFF;
+
+}
+
+.townname {
+
+    font-family: Catamaran;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: bold;
+    color: #002266;
+    margin-bottom: 5px;
+
+
+}
+
+nav {
+    
+    background-color: #00802b;
+    border: 1px solid black;
+
+}
+
+button {
+
+  color: white;
+  background: transparent;
+  
+}
+
+nav ul.hide {
+
+    display: none;
+}
+
+nav ul  {
+    
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+           
+  }
+
+  nav li {
+
+      border-top: 1px solid black;
+      width: 100%; 
+
+  }
+
+  nav li:hover {
+
+    color: #FFF;
+    background-color: darkblue;
+
+  }
+
+  li.active {
+
+    background-color: rgb(70, 133, 161);
+    color: #FFF
+
+  }
+      
+  nav li a {
+
+    text-decoration: none;
+    color: #FFF;
+
+   }
+
+  .smview {
+
+    display: none;
+
+  }
+
+  table {
+
+    display: none;
+
+  }
+
+  .atitle {
+
+      color: #002266;
+      background-color: #e6f9ff;
+      font-family: Catamaran;      
+      text-align: center;
+      font-size: 30px;
+      line-height: 32px;
+      margin-bottom: 0px;
+      
+  }
+
+  article img {
+
+      float: right;
+      width: 50%;
+      margin-left: 3px;
+      box-shadow: 3px 3px 3px cornflowerblue;
+
+      
+  }
+
+  article {
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      color: #000000;
+      background-color: #e6f9ff;
+      text-align: center;
+      padding: 10px;
+      text-align: left;
+      margin-top: 15px;
+      border: 1px solid black;
+      width: 80%;
+      box-shadow: 5px 5px 5px rgb(173, 198, 245)
+      
+  }
+
+  aside {
+
+    height: 330px;
+    width: 100%;
+    background-color: #00802b;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Catamaran;
+    font-size: 16px;    
+    border: 1px solid black;
+    margin-bottom: 0;
+           
+  }
+
+  aside img {
+
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px cornflowerblue;
+    
+  }
+  
+ h4 {
+
+      text-align: center;
+      font-weight: normal;
+      font-family: Catamaran;
+      
+ }
+
+  div.gallery {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+           
+  }
+  
+  figure img {
+
+   border: 1px solid black;     
+
+  }
+  
+  textarea {
+
+    height: 175px;
+    width: 300px;
+        
+  }
+
+  fieldset {
+   
+    margin: 0 auto;
+    text-align: left;
+        
+  }
+
+  form {
+
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Catamaran;
+    color: darkblue;
+    
+  }
+
+  .towninfo {
+           
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;          
+        
+  } 
+
+  section.towninfo article:nth-child(1) {
+    order:3;
+
+  }
+
+  section.towninfo article:nth-child(2) {
+    order:1;
+
+  }
+
+  section.towninfo article:nth-child(3) {
+    order:2;
+
+  }
+
+  .towninfo h2 {
+    color: #002266;
+    font-weight: bold;
+
+  }
+
+  .townbox1, .townbox2, .townbox3 {    
+        
+    border: 1px solid black;
+    height: 350px;
+    width: 200px;
+    background-color: rgb(223, 217, 217);               
+
+  }
+
+  .towninfo article img {
+    width: 100%;    
+    float: none; 
+    box-shadow: none;
+    padding-right: 5px;
+        
+  }
+
+  .towninfo article {
+
+    max-width: 200px;
+    font-size: 12px;
+    text-align: center;
+    font-family: Catamaran;
+    height: 375px;
+    
+    
+  }
+ 
+  .phlabel {
+
+    font-size: 18px;
+    text-align: center;
+    font-family: Catamaran;       
+
+  }
+ 
+  .townevent {
+
+    height: 330px;
+    width: 80%;     
+    display: block;
+    font-family: Catamaran;
+    font-size: 16px;    
+    border: 1px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+
+        
+  }
+
+  article.townevent img {
+    
+    float: none;
+    border: 1px solid black;   
+
+  }
+    
+
+  .townevent h4 {
+    font-weight: bold;
+    font-family: Catamaran;
+    margin-bottom: 5px;
+    color: #002266;
+
+  }
+  
+.eventdiv {
+
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: none;
+  display: block;
+  
+
+
+
+ 
+
+
+
+
+
+  
+}
+
+
+
+
+
+ 
+
+
+
+
+
+  
+    
+  
+
+
+  

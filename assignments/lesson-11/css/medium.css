@@ -1,0 +1,25 @@
+
+@media (min-width: 768px) {
+
+
+  .weathersummary {
+
+   
+    top: 30px;
+    right: 120px;
+
+  }
+
+
+ div.gallery {
+    
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+  .townevent {
+    height: 400px;
+
+  }
+
+}

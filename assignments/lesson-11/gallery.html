@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="The gallery of weather for Preston, Idaho.">
+      <meta name="author" content="Dainon Snow">
+      <title>My Town Weather Site Gallery</title>
+      <link href="https://fonts.googleapis.com/css?family=Calligraffitti%7cCatamaran" rel="stylesheet">
+      <link href="css/normalize.css" rel="stylesheet" type="text/css">
+      <link href="css/small.css" rel="stylesheet" type="text/css">
+      <link href="css/medium.css" rel="stylesheet" type="text/css">
+      <link href="css/large.css" rel="stylesheet" type="text/css">
+     
+    </head>
+
+    <body>
+        
+        <header>
+                <img src="images/openimg.png" alt="weather site logo image">
+           
+            <div class="motto"> <h1>Mytown Weather</h1><h2>It's always a sunny day somewhere!</h2></div>
+
+            
+        </header>
+     
+        <nav>
+            <button onclick="menuToggle()">&#9776; Menu</button>    
+            <ul id="primaryNav" class="hide">            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>                     
+            </ul>                 
+                
+        </nav> 
+        
+        <main>
+            <br>
+             <p class="townname">Weather Photo Gallery</p>
+        
+        
+            <div class="gallery">
+            <figure>
+                <img src ="images/snow.jpg" alt ="3 feet of snow">
+                <figcaption>Snow Day</figcaption>
+            </figure>
+
+            <figure>
+                <img src ="images/pumpkins.jpg" alt ="Jaker's Pumpkin Patch">
+                <figcaption>Fall Pumpkin Patch</figcaption>
+            </figure>
+
+            <figure>
+                <img src ="images/skyline.jpg" alt ="Skyline Drive Lookout">
+                <figcaption>Thunderstorm at Skyline Drive</figcaption>
+            </figure>
+
+            <figure>
+                <img src ="images/golf.jpg" alt ="golf course pin">
+                <figcaption>Windy Day at Spanish Oaks</figcaption>
+            </figure>
+
+            <figure>
+                <img src ="images/resevoir.jpg" alt ="Starvation Resevoir">
+                <figcaption>Clouds at Starvation Resevoir</figcaption>
+            </figure>
+
+            <figure>
+                <img src ="images/garden.jpg" alt ="Spring Green Garden">
+                <figcaption>Spring Garden at Sunrise</figcaption>
+            </figure>
+
+            </div>
+
+            <br>
+            
+        </main>
+
+        
+
+        <aside>
+            
+            <p>MyTown Weather <br>
+             123 This Street<br>
+             Preston, Idaho 83263<br>
+             email: weather@mytown.org<br>
+            </p>
+            
+            <img src="images/gmap.jpg" alt="google map">
+            
+               
+        
+        </aside>
+    
+        
+        
+        
+        
+        <footer>
+                <p>&copy; 2019 All Rights Reserved | MyTown Weather | <span id="todaysdate"></span><br></p>
+            </footer>              
+               
+                <script src="scripts/hamburger.js"></script>
+                <script src="scripts/todaysdate.js"></script>               
+                
+    
+        </body>
+    </html>
