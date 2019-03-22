@@ -188,8 +188,6 @@ section {
   
 }
 
-}
-
 .myVideo {
 
   width: 80%;
@@ -197,3 +195,10 @@ section {
   border-radius: 15px;
 
 }
+
+.blank {
+
+  height: 440px;
+
+}
+ }
