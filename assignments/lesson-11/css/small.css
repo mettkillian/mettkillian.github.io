@@ -478,6 +478,14 @@ nav ul  {
 
 }
 
+.myVideo {
+
+  width: 80%;
+  box-shadow: 5px 5px 5px cornflowerblue;
+  border-radius: 15px;
+
+}
+
 .blank {
 
   height: 50px;
