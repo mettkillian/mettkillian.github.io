@@ -47,7 +47,101 @@
             
             <p class="townname">Fish Haven, Idaho</p>
 
-            <br>
+            <div class="herodiv">
+                <picture>
+                                           
+                    <img src="images/clouds.jpg" alt="morning sky" sizes="100vw" srcset="images/clouds500.jpg 500w, 
+                     images/clouds768.jpg 768w, images/clouds950.jpg 950w">
+                            
+                </picture>
+    
+    
+            <section class="weathersummary">
+                <h2>Current Conditions</h2>
+                <p>Temperature: <span id="current-temp"></span>&deg; F</p>
+                <p>Humidity: <span id="current-humidity"></span>%</p>
+                <p>Skies: <span id="current-skies"></span></p>
+                <p>Windspeed: <span id="current-speed"></span> MPH</p>            
+                <p>Wind Chill: <span id="current-chill"></span>&deg; F</p>
+                <p>Direction: <span id="direction"></span></p>
+            </section>
+            </div>
+
+            <h2 class="smview">5 Day Forecast</h2>
+
+        
+
+        <table class="fctable">
+            <thead>
+            <tr>
+                <th class="fcth" id="fcth1"></th>
+                <th class="fcth" id="fcth2"></th>
+                <th class="fcth" id="fcth3"></th>
+                <th class="fcth" id="fcth4"></th>
+                <th class="fcth" id="fcth5"></th>
+            </tr>
+
+            </thead>
+            <tbody>
+            <tr>
+                <td class="tdicon"><img src="#" id="tdicon1" alt="weather icon"></td>
+                <td class="tdicon"><img src="#" id="tdicon2" alt="weather icon"></td>
+                <td class="tdicon"><img src="#" id="tdicon3" alt="weather icon"></td>
+                <td class="tdicon"><img src="#" id="tdicon4" alt="weather icon"></td>
+                <td class="tdicon"><img src="#" id="tdicon5" alt="weather icon"></td>
+                
+            </tr>
+            
+            <tr>
+                <td class="tdtemp" id="tdtemp1"><span></span></td>
+                <td class="tdtemp" id="tdtemp2"><span></span></td>
+                <td class="tdtemp" id="tdtemp3"><span></span></td>
+                <td class="tdtemp" id="tdtemp4"><span></span></td>
+                <td class="tdtemp" id="tdtemp5"><span></span></td>
+            </tr>
+
+            </tbody>
+
+        </table>
+
+        <br>
+        
+      
+        <article>
+
+          <div class="atitle">2019 Temple and Family History Leadership Instruction</div>
+          <h4>by LDS Church News</h4>  
+          <p><img src="images/artimage.jpg" alt="quorum of the twelve members">Three Apostles will address ward and stake leaders and members with temple and family history callings and responsibilities 
+             in a live-streamed event on <a href ="www.lds.org/familyhistory">lds.org/familyhistory</a> on February 28. Elder David A. Bednar, Elder Gary E. Stevenson, and 
+             Elder Dale G. Renlund of the Quorum of the Twelve Apostles will provide messages of instruction and inspiration on understanding
+             the responsibilities of your calling, how family history can be used to strengthen families, and how to organize family history service in your ward.                
+             All stake presidencies, bishoprics, stake high councilors with responsibilities for temple and family history work, Relief Society presidencies, 
+             elders quorum presidencies, ward temple and family history leaders, and temple and family history consultants are invited to view the live 
+             video stream on Thursday, February 28, 2019, from 7:00 p.m. to 8:00 p.m. mountain standard time, available in English, Spanish, Portuguese, and French.                
+             For those unable to view the live stream, the instruction session will also be archived for on-demand viewing on 
+             <a href ="www.lds.org/familyhistory">lds.org/familyhistory.</a></p>
+        
+        </article>
+
+        <br>
+
+        <article class="townevent">
+                
+                <h4 class="atitle">Community Events For Preston</h4>
+                <img class="towneventimg" src="images/easterhunt.jpg" alt="Easter Egg Hunt">       
+            
+            <p id="output1"><span></span></p>
+            <p id="output2"><span></span></p>
+            <p id="output3"><span></span></p>
+            
+      
+        </article>
+
+
+       
+
+        <br>
+
 
 
 
@@ -88,7 +182,7 @@
                    
                     <script src="scripts/hamburger.js"></script>
                     <script src="scripts/todaysdate.js"></script>                
-                    <script src="scripts/towndata.js"></script>  
+                    <script src="scripts/fishhaven.js"></script>  
                                  
                     
         

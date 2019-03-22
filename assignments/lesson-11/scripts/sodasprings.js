@@ -1,7 +1,9 @@
 
+
+
 let weatherRequest = new XMLHttpRequest();
 
-weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
+weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
 weatherRequest.send();
 
 weatherRequest.onload = function() {
@@ -61,7 +63,7 @@ weatherRequest.onload = function() {
 
 let forecastRequest = new XMLHttpRequest();
 
-forecastRequest.open('GET', "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
+forecastRequest.open('GET', "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
 forecastRequest.send();
 
 forecastRequest.onload = function() {
@@ -109,32 +111,31 @@ forecastRequest.onload = function() {
 
 }
 
-    
 
-    var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-    var request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
-    request.onload = function () {
-    var townData = request.response;
-    showData(townData);
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+request.onload = function () {
+var townData = request.response;
+showData(townData);
 }
 
-    function showData(jsonObj) {
-        var data = jsonObj['towns'];
-         for (var i = 0; i < data.length; i++) {
-            var name = data[i].name;
-            if ((name.includes("Preston")) == false) {
-            continue;
-        }
-       
-        var even=[]
-        var townEvents = data[i].events;       
-        
-        }
-            document.getElementById('output1').innerHTML=townEvents[0];
-            document.getElementById('output2').innerHTML=townEvents[1];
-            document.getElementById('output3').innerHTML=townEvents[2];   
+function showData(jsonObj) {
+    var data = jsonObj['towns'];
+     for (var i = 0; i < data.length; i++) {
+        var name = data[i].name;
+        if ((name.includes("Soda Springs")) == false) {
+        continue;
+    }
+   
+    var even=[]
+    var townEvents = data[i].events;       
     
     }
+        document.getElementById('output1').innerHTML=townEvents[0];
+        document.getElementById('output2').innerHTML=townEvents[1];
+        document.getElementById('output3').innerHTML=townEvents[2];   
+
+}
