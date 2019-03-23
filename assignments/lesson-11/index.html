@@ -13,72 +13,49 @@
       <link href="css/normalize.css" rel="stylesheet" type="text/css">
       <link href="css/small.css" rel="stylesheet" type="text/css">
       <link href="css/medium.css" rel="stylesheet" type="text/css">
-      <link href="css/large.css" rel="stylesheet" type="text/css">
-     
+      <link href="css/large.css" rel="stylesheet" type="text/css">     
     </head>
 
-    <body>
-        
+    <body>        
         <header>
-                <img src="images/openimg.png" alt="weather site logo image">
-           
-            <div class="motto"> <h1>Mytown Weather</h1><h2>It's always a sunny day somewhere!</h2></div>
-
-            
+            <img src="images/openimg.png" alt="weather site logo image">           
+            <div class="motto"> <h1>Mytown Weather</h1>
+            <h2>It's always a sunny day somewhere!</h2>
+            </div>            
         </header>
      
         <nav>
             <button onclick="menuToggle()">&#9776; Menu</button>    
             <ul id="primaryNav" class="hide">            
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>
-            <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>                     
-            </ul>             
-                       
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>                     
+            </ul>                       
         </nav> 
-
        
         <main> 
             <br>
-
-            <p class="townname">Serving Southeastern Idaho</p>
-
+            <h2 class="townname">Serving Southeastern Idaho</h2>
             <video autoplay muted loop class="myVideo">
-                    <source src="video/Rainy_Street.mp4" type="video/mp4">
-                    
+                 <source src="video/snow.mp4" type="video/mp4">                    
             </video>
-
-          <!----  <picture>
-
-                    <img src="images/dusk.jpg" alt="cloudy sky at dusk" sizes="100vw" srcset="images/dusk500.jpg 500w, 
-                    images/dusk768.jpg 768w, images/dusk950.jpg 950w">
-
+             <!----  <picture>
+                <img src="images/dusk.jpg" alt="cloudy sky at dusk" sizes="100vw" srcset="images/dusk500.jpg 500w, 
+                images/dusk768.jpg 768w, images/dusk950.jpg 950w">
             </picture>
-
             <div class="phlabel">February sunset at dusk. Photo submitted by April Snow.</div>-->
 
-            <div class="phlabel">Media courtesy of Coverr.co</div>
-
+            <div class="phlabel">Media courtesy of Coverr.co</div><br>
+            <h2 class="townname">Weather Forecasts and Upcoming Events for these areas:</h2>
             <section class="towninfo">
-
-                
-
-
-
             </section>
-
-        
-
         </main>
 
-
-
-        <aside>
-            
-            <p>MyTown Weather <br>
+        <aside>            
+            <p>MyTown Weather<br>
              123 This Street<br>
              Preston, Idaho 83263<br>
              <span class="fa fa-envelope"></span>email: weather@mytown.org<br>
@@ -88,33 +65,18 @@
              <a href="https://twitter.com" class="fa fa-twitter"></a>
              <a href="https://www.instagram.com" class="fa fa-instagram"></a>
              <a href="https://www.pinterest.com" class="fa fa-pinterest"></a>
-
-
-            </p>
-            
-            <div id="map">
-
-            </div> 
-            
-               
-        
-        </aside> 
-        
-        
-        
+            </p>            
+            <div id="map"></div>       
+        </aside>  
         
         <footer>
-                <p>&copy; 2019 All Rights Reserved | MyTown Weather | <span id="todaysdate"></span><br></p>
-            </footer>              
+            <p>&copy; 2019 All Rights Reserved | MyTown Weather | <span id="todaysdate"></span><br></p>
+        </footer>              
                
-                <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
-                <script src="scripts/hamburger.js"></script>
-                <script src="scripts/todaysdate.js"></script>                
-                <script src="scripts/towndata.js"></script>  
-                             
-                
+        <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/todaysdate.js"></script>                
+        <script src="scripts/towndata.js"></script>         
     
-        </body>
-
-        
-    </html>
+    </body>        
+</html>

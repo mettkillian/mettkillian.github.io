@@ -106,11 +106,11 @@ forecastRequest.onload = function() {
     document.getElementById("tdicon4").src = iconry[3];
     document.getElementById("tdicon5").src = iconry[4];
 
-    document.getElementById('tdtemp1').innerHTML = tempry[0] + "&deg";
-    document.getElementById('tdtemp2').innerHTML = tempry[1] + "&deg";
-    document.getElementById('tdtemp3').innerHTML = tempry[2] + "&deg";
-    document.getElementById('tdtemp4').innerHTML = tempry[3] + "&deg";
-    document.getElementById('tdtemp5').innerHTML = tempry[4] + "&deg";
+    document.getElementById('tdtemp1').innerHTML = "High " + tempry[0] + "&deg";
+    document.getElementById('tdtemp2').innerHTML = "High " + tempry[1] + "&deg";
+    document.getElementById('tdtemp3').innerHTML = "High " + tempry[2] + "&deg";
+    document.getElementById('tdtemp4').innerHTML = "High " + tempry[3] + "&deg";
+    document.getElementById('tdtemp5').innerHTML = "High " + tempry[4] + "&deg";
 
 }
 
@@ -127,7 +127,7 @@ showData(townData);
 
 function showData(jsonObj) {
     var data = jsonObj['towns'];
-     for (var i = 0; i < data.length; i++) {
+     for (i = 0; i < data.length; i++) {
         var name = data[i].name;
         if ((name.includes("Fish Haven")) == false) {
         continue;

@@ -17,10 +17,10 @@
     
   }
 
-  .townevent {
+ /* .townevent {
     height: 400px;
 
-  }
+  }*/
 
   .blank {
 
@@ -31,6 +31,15 @@
   .ssprings {
 
     width: 45%;
+    box-shadow: none;
+    padding: 8px;
+    border-radius: 5%;
+          
+    }
+
+  .haven {
+
+    width: 60%;
     box-shadow: none;
     padding: 8px;
     border-radius: 5%;
@@ -71,3 +80,4 @@ aside p {
   
 }
 }
+

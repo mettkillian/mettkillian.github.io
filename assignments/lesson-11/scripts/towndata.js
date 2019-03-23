@@ -17,7 +17,7 @@
       var itdata = jsonObj['towns'];
       
       
-      for (var i = 0; i < itdata.length; i++) {
+      for (i = 0; i < itdata.length; i++) {
           var name = itdata[i].name;
           if ((name.includes("Preston") || name.includes("Soda Springs") || name.includes("Fish Haven")) == false) {
               continue;
