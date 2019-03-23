@@ -1,14 +1,6 @@
-
-
-
-
-
-
 let weatherRequest = new XMLHttpRequest();
-
 weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
 weatherRequest.send();
-
 weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
@@ -24,32 +16,25 @@ weatherRequest.onload = function() {
 
     if ((d >= 337 && d <= 360) || (d >=0 && d <= 22)) {
         dir ="N";
-    }
-    
+    }    
     else if (d >= 23 && d <= 67) {
         dir ="NE";
     }
-
     else if (d >= 68 && d <= 112) {
         dir ="E";
     }
-
     else if (d >= 113 && d <= 157) {
         dir ="SE";
     }
-
      else if (d >= 158 && d <= 202) {
         dir ="S";
     }
-
     else if (d >= 203 && d <= 246) {
         dir ="SW";
     }
-
     else if (d >= 247 && d <= 290) {
         dir ="W";
     }
-
     else dir = "NW"
   
     document.getElementById("current-temp").textContent=t;
@@ -60,15 +45,11 @@ weatherRequest.onload = function() {
     document.getElementById("current-chill").textContent=windChill;
     document.getElementById("current-skies").textContent=s;
     document.getElementById("direction").textContent=dir;
-    
-
 }
 
 let forecastRequest = new XMLHttpRequest();
-
 forecastRequest.open('GET', "https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
 forecastRequest.send();
-
 forecastRequest.onload = function() {
     let forecastData = JSON.parse(forecastRequest.responseText);
     console.log(forecastData);
@@ -99,21 +80,17 @@ forecastRequest.onload = function() {
     document.getElementById("fcth3").innerHTML = datery[2];
     document.getElementById("fcth4").innerHTML = datery[3];
     document.getElementById("fcth5").innerHTML = datery[4];
-
     document.getElementById("tdicon1").src = iconry[0];
     document.getElementById("tdicon2").src = iconry[1];
     document.getElementById("tdicon3").src = iconry[2];
     document.getElementById("tdicon4").src = iconry[3];
     document.getElementById("tdicon5").src = iconry[4];
-
     document.getElementById('tdtemp1').innerHTML = "High " + tempry[0] + "&deg";
     document.getElementById('tdtemp2').innerHTML = "High " + tempry[1] + "&deg";
     document.getElementById('tdtemp3').innerHTML = "High " + tempry[2] + "&deg";
     document.getElementById('tdtemp4').innerHTML = "High " + tempry[3] + "&deg";
     document.getElementById('tdtemp5').innerHTML = "High " + tempry[4] + "&deg";
-
 }
-
 
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
@@ -124,23 +101,19 @@ request.onload = function () {
 var townData = request.response;
 showData(townData);
 }
-
 function showData(jsonObj) {
     var data = jsonObj['towns'];
      for (i = 0; i < data.length; i++) {
         var name = data[i].name;
         if ((name.includes("Fish Haven")) == false) {
         continue;
-    }
-   
+    }   
     var even=[]
-    var townEvents = data[i].events;       
-    
+    var townEvents = data[i].events;     
     }
         document.getElementById('output1').innerHTML=townEvents[0];
         document.getElementById('output2').innerHTML=townEvents[1];
-        document.getElementById('output3').innerHTML=townEvents[2];   
-
+        document.getElementById('output3').innerHTML=townEvents[2];
 }
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGFpbm9uIiwiYSI6ImNqdGtzZXJiajJ6YW00MG11MzB1MXMxNzEifQ.6lhJiRWvvXxU4zmhHXrMfg';

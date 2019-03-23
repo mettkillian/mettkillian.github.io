@@ -13,65 +13,47 @@
       <link href="css/normalize.css" rel="stylesheet" type="text/css">
       <link href="css/small.css" rel="stylesheet" type="text/css">
       <link href="css/medium.css" rel="stylesheet" type="text/css">
-      <link href="css/large.css" rel="stylesheet" type="text/css">
-     
+      <link href="css/large.css" rel="stylesheet" type="text/css">     
     </head>
 
-    <body>
-        
+    <body>        
         <header>
-                <img src="images/openimg.png" alt="weather site logo image">
-           
-            <div class="motto"> <h1>Mytown Weather</h1><h2>It's always a sunny day somewhere!</h2></div>
-
-            
-        </header>
-  
-      
+            <img src="images/openimg.png" alt="weather site logo image">           
+            <div class="motto"> <h1>Mytown Weather</h1><h2>It's always a sunny day somewhere!</h2></div>            
+        </header>      
        
-          <nav>
-              <button onclick="menuToggle()">&#9776; Menu</button>    
-              <ul id="primaryNav" class="hide">            
+        <nav>
+            <button onclick="menuToggle()">&#9776; Menu</button>    
+            <ul id="primaryNav" class="hide">            
               <li><a href="index.html">Home</a></li>
               <li><a href="preston.html">Preston</a></li>
               <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
               <li><a href="fishhaven.html">Fish Haven</a></li>
               <li><a href="stormcenter.html">Storm Center</a></li>
               <li><a href="gallery.html">Gallery</a></li>                     
-              </ul>             
-                         
+            </ul>                          
           </nav> 
 
-          <main>
-
+        <main>
             <br>
-            <p class="townname">Soda Springs, Idaho</p>
-            
-
+            <h2 class="townname">Soda Springs, Idaho</h2>
             <div class="herodiv">
-                <picture>
-                                           
+                <picture>                                           
                     <img src="images/springs1028.jpg" alt="Free Pixabay Soda Springs Geyser" sizes="100vw" srcset="images/springs500.jpg 500w, 
-                     images/springs768.jpg 768w, images/springs950.jpg 950w">
-                            
-                </picture>
+                     images/springs768.jpg 768w, images/springs950.jpg 950w">                            
+                </picture>    
     
-    
-            <section class="weathersummary">
-                <h2>Current Conditions</h2>
+        <section class="weathersummary">
+            <h2>Current Conditions</h2>
                 <p>Temperature: <span id="current-temp"></span>&deg; F</p>
                 <p>Humidity: <span id="current-humidity"></span>%</p>
                 <p>Skies: <span id="current-skies"></span></p>
                 <p>Windspeed: <span id="current-speed"></span> MPH</p>            
                 <p>Wind Chill: <span id="current-chill"></span>&deg; F</p>
                 <p>Direction: <span id="direction"></span></p>
-            </section>
-            </div>
+        </section></div>
 
-            <h2 class="smview">5 Day Forecast</h2>
-
-        
-
+        <h2 class="smview">5 Day Forecast</h2>
         <table class="fctable">
             <thead>
             <tr>
@@ -81,7 +63,6 @@
                 <th class="fcth" id="fcth4"></th>
                 <th class="fcth" id="fcth5"></th>
             </tr>
-
             </thead>
             <tbody>
             <tr>
@@ -89,10 +70,8 @@
                 <td class="tdicon"><img src="#" id="tdicon2" alt="weather icon"></td>
                 <td class="tdicon"><img src="#" id="tdicon3" alt="weather icon"></td>
                 <td class="tdicon"><img src="#" id="tdicon4" alt="weather icon"></td>
-                <td class="tdicon"><img src="#" id="tdicon5" alt="weather icon"></td>
-                
-            </tr>
-            
+                <td class="tdicon"><img src="#" id="tdicon5" alt="weather icon"></td>                
+            </tr>            
             <tr>
                 <td class="tdtemp" id="tdtemp1"><span></span></td>
                 <td class="tdtemp" id="tdtemp2"><span></span></td>
@@ -100,93 +79,60 @@
                 <td class="tdtemp" id="tdtemp4"><span></span></td>
                 <td class="tdtemp" id="tdtemp5"><span></span></td>
             </tr>
-
             </tbody>
-
         </table>
 
-        <br>
-        
+        <br>     
       
         <article>
-
           <div class="atitle">New Study Suggests Motorcyling Lowers Stress</div>
           <h4>by newsusa.com</h4>  
           <img class = "ssprings" src="images/cycle.jpg" alt="riding motorcycle at sunset">
           
           <p>(NewsUSA) - Turns out motorcyclists may get more than a glorious sense of freedom from riding.
-
-            A pioneering new study conducted by researchers at UCLA's Semel Institute for Neuroscience and Human Behavior found that motorcycling can also provide a number of mental and physical benefits. Stress-related hormonal biomarkers decreased by 28 percent among participating riders, to name one thing. And motoring along on the open road for just 20 minutes increased their heart rates an average of 11 percent and their adrenaline levels by 27 percent - similar to light exercise, though a lot more fun - to name another.
-            
-            Come to think of it, with stress levels on the rise - especially among young adults - anyone looking for that same "glorious sense of freedom" might want to check out the New Rider Course offered at select Harley-Davidson dealers.</a></p>
-        
+            A pioneering new study conducted by researchers at UCLA's Semel Institute for Neuroscience and Human Behavior 
+            found that motorcycling can also provide a number of mental and physical benefits. Stress-related hormonal 
+            biomarkers decreased by 28 percent among participating riders, to name one thing. And motoring along on the 
+            open road for just 20 minutes increased their heart rates an average of 11 percent and their adrenaline levels 
+            by 27 percent - similar to light exercise, though a lot more fun - to name another.            
+            Come to think of it, with stress levels on the rise - especially among young adults - anyone looking for that 
+            same "glorious sense of freedom" might want to check out the New Rider Course offered at select 
+            Harley-Davidson dealers.</p>        
         </article>
 
         <br>
 
-        <article class="townevent">
-                
-                <h4 class="atitle">Community Events For Soda Springs</h4>
-                <img class="towneventimg" src="images/july4.jpg" alt="Easter Egg Hunt">       
-            
+        <article class="townevent">                
+            <h4 class="atitle">Community Events For Soda Springs</h4>
+            <img class="towneventimg" src="images/july4.jpg" alt="Easter Egg Hunt">            
             <p id="output1"><span></span></p>
             <p id="output2"><span></span></p>
-            <p id="output3"><span></span></p>
-            
-      
-        </article>
-
-
-       
+            <p id="output3"><span></span></p>      
+        </article>    
 
         <br>
+        </main>
 
-
-
-          </main>
-
-
-
-          <aside>
-            
-                <p>MyTown Weather <br>
-                 123 This Street<br>
-                 Preston, Idaho 83263<br>
-                 <span class="fa fa-envelope"></span>email: weather@mytown.org<br>
-                 <span class="fa fa-phone"></span>tel: 208-555-1234<br>
-    
-                 <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-                 <a href="https://twitter.com" class="fa fa-twitter"></a>
-                 <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                 <a href="https://www.pinterest.com" class="fa fa-pinterest"></a>
-    
-    
-                </p>
-                
+        <aside>            
+            <p>MyTown Weather <br>
+               123 This Street<br>
+               Preston, Idaho 83263<br>
+               <span class="fa fa-envelope"></span>email: weather@mytown.org<br>
+               <span class="fa fa-phone"></span>tel: 208-555-1234<br>    
+               <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+               <a href="https://twitter.com" class="fa fa-twitter"></a>
+               <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+               <a href="https://www.pinterest.com" class="fa fa-pinterest"></a>    
             </p>
+            <div id="map"></div>            
+        </aside> 
 
-            <div id="map">
-
-            </div>       
-                   
-            
-            </aside> 
-            
-            
-            
-            
-            <footer>
-                    <p>&copy; 2019 All Rights Reserved | MyTown Weather | <span id="todaysdate"></span><br></p>
-                </footer>              
-                   
-                    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
-                    <script src="scripts/hamburger.js"></script>
-                    <script src="scripts/todaysdate.js"></script>                
-                    <script src="scripts/sodasprings.js"></script>  
-                                 
-                    
-        
-            </body>
-    
-            
-        </html>
+        <footer>
+            <p>&copy; 2019 All Rights Reserved | MyTown Weather | <span id="todaysdate"></span><br></p>
+        </footer>                   
+            <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+            <script src="scripts/hamburger.js"></script>
+            <script src="scripts/todaysdate.js"></script>                
+            <script src="scripts/sodasprings.js"></script>        
+    </body>            
+</html>
