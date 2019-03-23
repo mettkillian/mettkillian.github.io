@@ -74,9 +74,9 @@ forecastRequest.onload = function() {
         var datery = [];
         var iconry = [];
 
-    for (i=1; i<forecastData.list.length; i++) {
+    for (i=0; i<forecastData.list.length; i++) {
         dtext=forecastData.list[i].dt_txt;
-        if (dtext.includes("06:00:00")) {
+        if (dtext.includes("18:00:00")) {
             let temperature = forecastData.list[i].main.temp;
             temperature =Math.round(temperature);
             tempry.push(temperature);
