@@ -1,117 +1,84 @@
 
 *{margin: 0; box-sizing: border-box;}
 
-    body {   
-        
+    body {         
     font-size: 15px; 
     line-height: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: linear-gradient( #4d4dff, #66ccff);
-    text-align: center; 
-           
+    text-align: center;            
    } 
 
  header {
-
-    text-align: center;
     background-color: #002266;
     color: #F8F8FF;    
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: row;    
     width: 100%;
     border: 1px solid black;
-
  }
 
 footer {
-
-    text-align: center;
     background-color: #002266;
     color: #F8F8FF;    
     width: 100%;
-    line-height: 20px;       
     border: 1px solid black;
-    border-top: 0;
-
-    
 }
 
 main {
-
   background-color: white;
-  
-
 }
-h1 {
 
+h1 {
     font-size: 33px;
     line-height: 36px;
     font-weight: bold;
-    text-align: center;
     color: #FFFFFF; 
-    margin-bottom: 4px; 
-    
+    margin-bottom: 4px;     
 }
 
 .motto h2 {
-
     font-size: 18px;    
     font-family: Calligraffitti;
     color:	#FFFF00;
-    text-align: center;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 
 header img {
-
-    height:  50px;
+    height:  52px;
     align-self: center; 
-    margin-right: 4px;
-       
+    margin-right: 4px;       
 }
 
 h2 {
-
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 22px;
     font-weight: bold;
-    text-align: center;
-    color: #002266;
-    
+    color: #002266;    
 }
 
 h3 {  
-
     font-size: 16px;
     line-height: 18px;
-    font-weight: normal;
-    text-align: center;
+    font-weight: normal;    
     color: #002266;
-
 }
 
 .herodiv {
-
     position: relative;    
-    height: 425px;       
-    
+    height: 425px;  
 }
 
-picture img {
-    
+picture img {    
       width: 80%;
       height: auto;
       border: 1px solid black;
       box-shadow: 5px 5px 5px cornflowerblue;
-      border-radius: 10px;
-      
+      border-radius: 10px;      
 }
 
 .weathersummary {
-
     position: absolute;
     top: 10px;
     right: 75px;
@@ -128,72 +95,55 @@ picture img {
 }
 
 .weathersummary h2{
-
   color: #FFFFFF;
-
 }
 
 .townname {
-
     font-family: Catamaran;
     font-size: 28px;
     line-height: 34px;
     font-weight: bold;
     color: #002266;
     margin-bottom: 5px;
-
-
 }
 
-nav {
-    
+nav {    
     background-color: #00802b;
     border: 1px solid black;
-
 }
 
 button {
-
   color: white;
-  background: transparent;
-  
+  background: transparent;  
 }
 
 nav ul.hide {
-
     display: none;
 }
 
-nav ul  {
-    
+nav ul  {    
     display: flex;
     flex-direction: column;
     list-style-type: none;
     padding: 0;
-    margin: 0;
-           
+    margin: 0;           
   }
 
   nav li {
-
       border-top: 1px solid black;
       width: 100%;
-      padding: 0;
-            
+      padding: 0;            
   }
 
   nav li:hover {
-
+    
     color: #FFF;
     background-color: darkblue;
-
   }
 
   li.active {
-
     background-color: rgb(70, 133, 161);
     color: #FFF
-
   }
       
   nav li a {
@@ -201,45 +151,34 @@ nav ul  {
     padding: 3px;
     text-decoration: none;
     color: #FFF;
-
    }
 
   .smview {
-
     display: none;
-
   }
 
   table {
-
     display: none;
-
   }
 
   .atitle {
-
       color: #002266;
       background-color: #e6f9ff;
       font-family: Catamaran;      
       text-align: center;
       font-size: 30px;
       line-height: 32px;
-      margin-bottom: 0px;
-      
+      margin-bottom: 0px;      
   }
 
   article img {
-
       float: right;
       width: 50%;
       margin-left: 3px;
-      border-radius: 8px;
-
-      
+      border-radius: 8px;      
   }
 
   article {
-
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -251,12 +190,10 @@ nav ul  {
       margin-top: 15px;
       border: 1px solid black;
       width: 80%;
-      box-shadow: 5px 5px 5px rgb(173, 198, 245)
-      
+      box-shadow: 5px 5px 5px cornflowerblue;      
   }
 
   aside {
-
     height: 405px;
     width: 100%;
     background-color: #00802b;
@@ -265,16 +202,13 @@ nav ul  {
     font-family: Catamaran;
     font-size: 16px;    
     border: 1px solid black;
-    margin-bottom: 0;
-           
+    margin-bottom: 0;           
   }
 
   aside img {
-
     border: 1px solid black;
     box-shadow: 2px 2px 2px cornflowerblue;
-    border-radius: 8px;
-    
+    border-radius: 8px;    
   }
 
   #map {
@@ -282,83 +216,63 @@ nav ul  {
     height: 200px;
     margin: auto;
     text-align: justify;
-    border: solid 1px black; 
-        
+    border: solid 1px black;        
   }
   
  
  h4 {
-
       text-align: center;
       font-weight: normal;
-      font-family: Catamaran;
-      
- }
+      font-family: Catamaran;      
+  }
 
   div.gallery {
-
     display: grid;   
     grid-template-columns: 1fr;
-    grid-gap: 10px;
-           
+    grid-gap: 10px;           
   }
   
   figure img {
-
-   border: 1px solid black;     
-
+   border: 1px solid black; 
   }
   
   textarea {
-
     height: 175px;
-    width: 300px;
-        
+    width: 300px;        
   }
 
-  fieldset {
-   
+  fieldset {   
     margin: 0 auto;
     text-align: left;
-    background-color: #e6f9ff;
-    
-        
+    background-color: #e6f9ff;        
   }
 
   form {
-
     text-align: left;
     max-width: 500px;
     margin: 0 auto;
     font-family: Catamaran;
-    color: darkblue;
-    
+    color: darkblue;    
   }
 
-  .towninfo {
-           
+  .towninfo {           
     display: grid;
     align-items: center;
     justify-items: center;
     grid-template-columns: 1fr;
-    padding-bottom: 20px;
-                 
-        
+    padding-bottom: 20px;       
   } 
 
   section.towninfo article:nth-child(1) {
     order:3;
-
   }
 
   section.towninfo article:nth-child(2) {
     order:1;
-
   }
 
   section.towninfo article:nth-child(3) {
     order:2;
-
   }
 
   section.towninfo,article {
@@ -369,88 +283,55 @@ nav ul  {
     background-color: #002266;
     color: #FFFFFF;
     font-weight: bold;
-
-  }
-
-  .townbox1, .townbox2, .townbox3 {    
-        
-    border: 1px solid black;
-    height: 350px;
-    width: 200px;
-    background-color: rgb(223, 217, 217);
-                    
-
   }
 
   .towninfo article img {
     width: 100%;    
     float: none; 
     box-shadow: none;
-    padding-right: 5px;
-        
+    padding-right: 5px;        
   }
 
   .towninfo article {
-
     max-width: 200px;
     font-size: 12px;
     text-align: center;
     font-family: Catamaran;
-    height: 375px;
-    
-    
-  }
- 
-  .phlabel {
-
-    font-size: 18px;
-    text-align: center;
-    font-family: Catamaran;       
-
-  }
+    height: 375px;    
+  } 
  
   .townevent {
-
-    /*height: 445px;*/
     width: 80%;     
     display: block;    
     font-size: 16px;    
     border: 1px solid black;
     margin-bottom: 20px;
     text-align: center;
-    padding-bottom:15px;
-
-        
+    padding-bottom:15px;        
   }
 
-  article.townevent img {
-    
+  article.townevent img {    
     float: none;
     width: 80%;
-    border: 1px solid black;   
-
-  }
-    
+    border: 1px solid black;
+  }    
 
   .townevent h4 {
     font-weight: normal;
     font-family: Catamaran;
     margin-bottom: 5px;
-    color: #002266;
-
+    color: #002266
   }
   
 .eventdiv {
-
   background-color: white;
   color: black;
   text-align: center;
   border: none;
   display: block;
-
 }
   
-  .fa {
+.fa {
     padding: 5px;
     font-size: 20px;
     width: 30px;
@@ -458,16 +339,15 @@ nav ul  {
     text-decoration: none;
     margin: 5px 3px;
     border-radius: 5px;
-  }
+}
 
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
 }
 
 .fa-facebook {
   background: #3B5998;
-  color: white;
-  
+  color: white;  
 }
 
 .fa-twitter {
@@ -486,43 +366,26 @@ nav ul  {
 }
 
 .fa-phone, .fa-envelope {
-
   font-size: 15px;
   margin: 0px 2px;
-
-}
-
-.myVideo {
-
-  width: 80%;
-  box-shadow: 5px 5px 5px cornflowerblue;
-  border-radius: 15px;
-
 }
 
 .blank {
-
   height: 50px;
-
 }
 
 .ssprings {
-
   width: 99%;
   padding: 5px;
   box-shadow:none;
-  border-radius: 3%;
-
-    
+  border-radius: 3%;    
   }
 
 .haven {
-
   width: 99%;
   padding: 5px;
   box-shadow:none;
   border-radius: 3%;
-
 }
 
 
