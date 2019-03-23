@@ -388,6 +388,13 @@ nav ul  {
   border-radius: 3%;
 }
 
+.byulink {
+  color: #fff;
+  }
+
+  .byulink:hover {
+    opacity: .5;
+  }
 
 
  
