@@ -44,4 +44,30 @@
     width: 50%;
   }
 
+aside {
+
+  height: 250px;
+
+}
+aside p, #map{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  
+}
+
+aside p {
+
+  margin-top: 25px;
+
+}
+
+#map {
+
+  width: 50%;
+  margin-top: 24px;
+  margin-left: 50px;
+
+  
+}
 }

@@ -139,3 +139,11 @@ function showData(jsonObj) {
         document.getElementById('output3').innerHTML=townEvents[2];   
 
 }
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiZGFpbm9uIiwiYSI6ImNqdGtzZXJiajJ6YW00MG11MzB1MXMxNzEifQ.6lhJiRWvvXxU4zmhHXrMfg';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [-111.6047, 42.6544],
+zoom: 12
+});

@@ -119,7 +119,7 @@
     
 }
 
-aside {
+/*aside {
 
   height: 250px;
 
@@ -139,12 +139,14 @@ aside img {
   margin-right: 80px;
   margin-top: 22px;
     
-}
+}*/
 
 div.gallery {
   
-  
-  grid-template-columns: 1fr 1fr 1fr;  
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr; 
+  padding: 0 60px;
+   
   
 }
  

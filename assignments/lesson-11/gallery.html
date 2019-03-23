@@ -9,6 +9,7 @@
       <title>My Town Weather Site Gallery</title>
       <link href="https://fonts.googleapis.com/css?family=Calligraffitti%7cCatamaran" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
       <link href="css/normalize.css" rel="stylesheet" type="text/css">
       <link href="css/small.css" rel="stylesheet" type="text/css">
       <link href="css/medium.css" rel="stylesheet" type="text/css">
@@ -97,7 +98,9 @@
     
                 </p>
                 
-                <img src="images/gmap.jpg" alt="google map">               
+                <div id="map">
+
+                </div>                
                    
             
             </aside>   
@@ -106,7 +109,9 @@
         <footer>
                 <p>&copy; 2019 All Rights Reserved | MyTown Weather | <span id="todaysdate"></span><br></p>
             </footer>              
-               
+
+                <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+                <script src="scripts/map.js"></script>
                 <script src="scripts/hamburger.js"></script>
                 <script src="scripts/todaysdate.js"></script>               
                 

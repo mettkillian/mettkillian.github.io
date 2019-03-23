@@ -77,9 +77,9 @@ forecastRequest.onload = function() {
         var datery = [];
         var iconry = [];
 
-    for (i=1; i<forecastData.list.length; i++) {
+    for (i=0; i<forecastData.list.length; i++) {
         dtext=forecastData.list[i].dt_txt;
-        if (dtext.includes("06:00:00")) {
+        if (dtext.includes("18:00:00")) {
             let temperature = forecastData.list[i].main.temp;
             temperature =Math.round(temperature);
             tempry.push(temperature);
@@ -142,3 +142,11 @@ function showData(jsonObj) {
         document.getElementById('output3').innerHTML=townEvents[2];   
 
 }
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiZGFpbm9uIiwiYSI6ImNqdGtzZXJiajJ6YW00MG11MzB1MXMxNzEifQ.6lhJiRWvvXxU4zmhHXrMfg';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [-111.3960, 42.0372],
+zoom: 12
+});
