@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+
+    header {
+        height: 180px;
+        top: 350px;
+    }
+
+  
+    header img {        
+        
+        margin: 5%;
+        height: 130px;         
+    
+    }
+    
+    .logo {
+        
+        font-family: Dancing Script;
+        font-size: 3.25rem;
+        margin-right: 5%;    
+    }
+
+    .suite {
+    background-image: url("/mettkillian.github.io/final-project/images/bed768.jpg");
+    min-height: 600px;
+}
+
+div.gallery {
+        
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto;
+    grid-gap: 8px;   
+    
+ }
+}

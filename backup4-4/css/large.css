@@ -1,0 +1,45 @@
+@media (min-width: 1024px) {
+
+
+header {
+    height: 175px;
+    top: 450px;
+}
+
+.logo {
+    font-size: 4.5rem;
+}
+
+nav {
+    font-size: 24px;
+    top: 50px;
+}
+
+nav button {
+    display: none;
+   }
+
+   nav ul.hide {
+    display: flex; 
+    flex-direction: row;
+   }
+      
+  nav ul  {
+    display: flex; 
+    flex-direction: row; 
+  }
+
+  nav li {
+    border-top: none;  
+  }
+
+ div.gallery {        
+    grid-template-columns: 1fr 1fr 1fr 1fr;     
+ }
+
+ .suite {
+    background-image: url("/mettkillian.github.io/final-project/images/bed1200.jpg");
+    min-height: 700px;
+}
+
+}

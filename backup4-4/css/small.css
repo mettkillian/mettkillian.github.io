@@ -1,0 +1,153 @@
+*{margin: 0; box-sizing: border-box;}
+
+
+body {
+    text-align: center;
+    font-family: Neuton;
+    font-size: 15px;    
+}
+
+
+main {       
+    width: 100%;    
+    background-color: #eaeaea;        
+}
+
+.suite {
+    display: block;
+    background-image: url("/mettkillian.github.io/final-project/images/bed500.jpg");
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #231f20;   
+}
+
+
+
+header {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    background-color: #231f20;
+    color: #8e793e;
+    opacity: .92;
+    top: 290px;
+    border: 1px solid #000;        
+}
+
+header img {            
+    opacity: .85;
+    margin: 5%;
+    height: 110px;
+    border: 4px solid #ad974f;
+    border-radius: 8%; 
+}
+
+.logo {    
+    font-family: Dancing Script;    
+    font-size: 2rem;
+    margin-right: 5%;
+}
+
+nav {  
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    background-color: #231f20;
+    opacity: .8;    
+    border: 1px solid black;   
+    font-style: italic;
+    font-size: 18px;    
+}
+
+button {
+  color: #eaeaea;
+  background: transparent;    
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul  {    
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;           
+  }
+
+  nav li {
+      border-top: 1px solid #000;
+      width: 100%;
+      padding: 0;            
+  }
+
+  nav li a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    color: #eaeaea;
+   }
+
+  nav li:hover {    
+    color: #eaeaea;
+    background-color: #263f3f;
+  }
+
+  li.active {
+    background-color:#6c9696;
+    color: #eaeaea;
+  }
+
+  .sep {
+    width: 100%;
+    height: 2px;
+    background-color: #231f20;
+    opacity: .99;
+}
+
+  div.gallery {    
+    display: grid;   
+    grid-template-columns: 1fr;
+    padding: 18px;
+    padding-bottom: 0;               
+  }
+
+ figure img {
+     width: 100%;
+     display: block; 
+     border: 1px solid #000000;    
+ }
+
+ .caption {
+     background-color: #eaeaea;     
+     color: #231f20;
+     line-height: 20px;     
+ }
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #231f20;
+    opacity: .98;
+    border: 1px solid black;    
+    color: #eaeaea;
+}
+
+footer p {
+    padding: 12px;
+}
+
+.footlink {
+    color: #eaeaea;
+}
+
+.footlink:hover {
+    opacity: .5;
+}
+
