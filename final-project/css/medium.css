@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+
+    header {
+        height: 180px;
+    }
+
+  
+    header img {
+            
+        
+        margin: 5%;
+        height: 130px;         
+    
+    }
+    
+    .logo {
+        
+        font-family: Dancing Script;
+        font-size: 3.25rem;
+        margin-right: 5%;
+    
+    }
+}
