@@ -116,6 +116,27 @@ article div:nth-child(6) {
   background-image: url("/mettkillian.github.io/final-project/images/bride1200.jpg");
   min-height: 700px;
 }
+
+.paysonext {  
+  background-image: url("/mettkillian.github.io/final-project/images/paysonext1200.jpg");
+  min-height: 700px;  
+ }
+
+ .oaklandext {     
+  background-image: url("/mettkillian.github.io/final-project/images/oakland1200.jpg");
+  min-height: 700px;
+ }
+
+ .cityext {     
+  background-image: url("/mettkillian.github.io/final-project/images/citycenter1200.jpg");
+  min-height: 700px;
+ }
+
+ .ogdext {
+  background-image: url("/mettkillian.github.io/final-project/images/ogden1200.jpg");
+  min-height: 700px;
+ }
+
 .contpage {
   display: -webkit-inline-flex;
   align-items: center;

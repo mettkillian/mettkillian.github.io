@@ -9,7 +9,8 @@ body {
 
 a, li, figure img:hover {
   -webkit-transition-duration: 0.35s; 
-  transition-duration: 0.35s; 
+  transition-duration: 0.35s;
+   
    
 }
 
@@ -144,6 +145,46 @@ main {
  .bridal {
   display: block;
   background-image: url("/mettkillian.github.io/final-project/images/bride500.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #231f20;
+ }
+
+ .paysonext {
+  display: block;
+  background-image: url("/mettkillian.github.io/final-project/images/paysonext500.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #231f20;
+ }
+
+ .oaklandext {
+  display: block;
+  background-image: url("/mettkillian.github.io/final-project/images/oakland500.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #231f20;
+ }
+
+ .cityext {
+  display: block;
+  background-image: url("/mettkillian.github.io/final-project/images/citycenter500.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #231f20;
+ }
+
+ .ogdext {
+  display: block;
+  background-image: url("/mettkillian.github.io/final-project/images/ogden500.jpg");
   min-height: 500px;
   background-size: cover;
   background-position: center;
@@ -331,14 +372,17 @@ main {
   }
  
    .smbutton {
-     height: 30px;
-     background-color: #bcd1d1;
+     opacity: .92;
+     padding: 5px 18px;
+     background-color: #231f20;
+     color: #eaeaea;
+     text-decoration: none;
+     
    }
 
-   .smbutton:hover {
-    opacity: .5;
-    background-color: #000;
-    color: #eaeaea;
+   .smbutton:hover {    
+    background-color: #6c9696;
+    color: #231f20;
     
   }
 

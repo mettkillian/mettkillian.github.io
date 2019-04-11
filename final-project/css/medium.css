@@ -54,6 +54,27 @@
       min-height: 600px;
     }
 
+    .paysonext {
+      
+      background-image: url("/mettkillian.github.io/final-project/images/paysonext768.jpg");
+      min-height: 600px;     
+     }
+
+     .oaklandext {     
+      background-image: url("/mettkillian.github.io/final-project/images/oakland768.jpg");
+      min-height: 600px;
+     }
+
+     .cityext {     
+      background-image: url("/mettkillian.github.io/final-project/images/citycenter768.jpg");
+      min-height: 600px;
+     }
+
+     .ogdext {
+      background-image: url("/mettkillian.github.io/final-project/images/ogden768.jpg");
+      min-height: 600px;
+     }
+
 div.gallery {
         
     grid-template-columns: 1fr 1fr; 
