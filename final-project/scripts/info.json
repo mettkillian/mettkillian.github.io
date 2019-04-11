@@ -1,0 +1,202 @@
+{
+    "temples": [
+        {
+            "name": "Payson Utah Temple",
+            "address": "1494 South 930 West",
+            "state": "Payson, Utah 84651",            
+            "telephone": "(801)754-4949",
+            "email": "payson@temples.org",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "milestones": [
+                "Announced January 25, 2010",
+                "Groundbreaking October 8, 2011",
+                "Dedicated June 7, 2015"
+            ],
+            "ordinanceSchedule":[
+                "Baptisms: 5:30AM - 8:00PM Walk-ins Only",
+                "Initiatories: 5:30AM - 8:00PM Walk-ins Only",
+                "Sealings: 7:00AM - 8:00PM Walk-ins and Appointments"
+                
+            ],
+            "endowmentSchedule":[
+                "7:00AM Walk-ins Only",
+                "7:40AM Walk-ins Only",
+                "8:20AM Walk-ins Only",
+                "9:00AM Walk-ins Only",
+                "9:40AM Walk-ins Only",
+                "10:20AM Walk-ins Only",
+                "11:00AM Walk-ins Only",
+                "11:40AM Walk-ins Only",
+                "12:20PM Walk-ins Only",
+                "1:00PM Walk-ins Only",
+                "1:40PM Walk-ins Only",
+                "2:20PM Walk-ins Only",
+                "3:00PM Walk-ins Only",
+                "3:40PM Walk-ins Only",
+                "4:20PM Walk-ins Only",
+                "5:00PM Walk-ins Only",
+                "5:40PM Walk-ins Only",
+                "6:20PM Walk-ins Only",
+                "7:00PM Walk-ins Only",
+                "7:40PM Walk-ins Only"
+            ],
+            "templeClosure":[
+                "Monday, 1 April 2019 - Monday, 22 April 2019",
+                "Thursday, 4 July 2019",
+                "Wednesday, 24 July 2019",
+                "Saturday, 5 October 2019",
+                "Monday, 14 October 2019 - Monday, 4 November 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]
+        },
+
+        {
+            "name": "Oakland California Temple",
+            "address": "4770 Lincoln Avenue",
+            "state": "Oakland, California 94602-2535",
+            "telephone": "(510)531-3200",
+            "email": "oakland@temples.org",
+            "services": [
+                "Clothing rental available",
+                "Cafeteria available",
+                "Patron housing available",
+                "Distribution center nearby"
+            ],
+            "milestones": [
+                "Announced May 26, 1962",
+                "Groundbreaking May 26, 1962",
+                "Dedicated November 17, 1964"
+            ],
+            "ordinanceSchedule":[
+                "Baptisms: For group appoinments, please call",
+                "Initiatories: Call to schedule living ordinances ",
+                "Sealings: Call to schedule living ordinances"
+                
+            ],
+            "endowmentSchedule":[
+                "No sessions available today"
+            ],
+            "templeClosure":[
+                "2019 Closed for Renovation"
+            ]
+        },
+        {
+            "name": "Ogden Utah Temple",
+            "address": "350 22nd Street",
+            "state": "Ogden, Utah 84401-1487",
+            "telephone": "(801)621-6880",
+            "email": "ogden@temples.org",
+            "services": [
+                "Clothing rental available",
+                "Cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "milestones": [
+                "Announced August 24, 1967",
+                "Groundbreaking September 8, 1969",
+                "Dedicated January 18, 1972",
+                "Rededicated September 21. 2014"
+            ],
+            "ordinanceSchedule":[
+                "Baptisms: 5:30AM - 8:00PM Walk-ins Only",
+                "Initiatories: 5:30AM - 8:00PM Walk-ins Only",
+                "Sealings: 7:00AM - 8:00PM Walk-ins and Appointments"
+                
+            ],
+            "endowmentSchedule":[
+                "6:00AM Walk-ins Only",
+                "7:00AM Walk-ins Only",
+                "7:30AM Walk-ins Only",
+                "8:00AM Walk-ins Only",
+                "8:30AM Walk-ins Only",
+                "9:00AM Walk-ins Only",
+                "9:30AM Walk-ins and Appointments",
+                "10:00AM Walk-ins Only",
+                "10:30AM Walk-ins Only",
+                "11:00AM Walk-ins and Appointments",
+                "11:30PM Walk-ins Only",
+                "12:00PM Walk-ins Only",
+                "12:30PM Walk-ins and Appointments",
+                "1:00PM Walk-ins Only",
+                "1:30PM Walk-ins Only",
+                "2:00PM Walk-ins and Appointments",
+                "2:30PM Walk-ins Only",
+                "3:00PM Walk-ins Only",
+                "3:30PM Walk-ins and Appointments",
+                "4:00PM Walk-ins Only",
+                "4:30PM Walk-ins Only",
+                "5:00PM Walk-ins and Appointments",
+                "5:30PM Walk-ins Only",
+                "6:00PM Walk-ins Only",
+                "6:30PM Walk-ins and Appointments",
+                "7:00PM Walk-ins Only",
+                "7:30PM Walk-ins Only",
+                "8:00PM Walk-ins Only"
+            ],
+            "templeClosure":[                
+                "Saturday, 18 May 2019",
+                "Thursday, 4 July 2019",
+                "Wednesday, 24 July 2019",
+                "Monday, 9 September 2019 - Monday, 23 September 2019",
+                "Saturday, 5 October 2019",
+                "Thursday, 31 October 2019 (Limited Hours)",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]
+        },
+        {
+            "name": "Provo City Center Temple",
+            "address": "50 South University Avenue",
+            "state": "Provo, Utah 84601",
+            "telephone": "(801)343-2700",
+            "email": "citycenter@temples.org",
+            "services": [
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "milestones": [
+                "Announced October 1, 2011",
+                "Groundbreaking May 12, 2012",
+                "Dedicated March 20, 2016"
+            ],
+            "ordinanceSchedule":[
+                "Baptisms: 6:00AM - 8:00PM Walk-ins Only",
+                "Initiatories: 6:00AM - 8:00PM Walk-ins Only",
+                "Sealings: To Schedule living ordinances, please call"
+                
+            ],
+            "endowmentSchedule":[
+                "2:00PM Walk-ins Only",
+                "3:00PM Walk-ins Only",
+                "4:00PM Walk-ins Only",
+                "5:00PM Walk-ins Only",
+                "6:00PM Walk-ins Only",
+                "8:00PM Walk-ins Only"
+                
+            ],
+            "templeClosure":[
+                "Sunday, 23 June 2019 - Saturday, 6 July 2019",
+                "Wednesday, 24 July 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Sunday, 1 December 2019 - Saturday, 14 December 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]
+        }
+    ]
+}

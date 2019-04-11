@@ -1,9 +1,16 @@
 @media (min-width: 1024px) {
 
+ 
+body {
+  max-width: 1400px;
+  margin: 0 auto; 
+  background-color: #898586; 
+}
 
 header {
     height: 175px;
-    top: 450px;
+    top: 450px;   
+    max-width: 1398px;
 }
 
 .logo {
@@ -13,6 +20,7 @@ header {
 nav {
     font-size: 24px;
     top: 50px;
+    max-width: 1398px;
 }
 
 nav button {
@@ -32,14 +40,115 @@ nav button {
   nav li {
     border-top: none;  
   }
+ 
 
- div.gallery {        
-    grid-template-columns: 1fr 1fr 1fr 1fr;     
+ div.gallery { 
+    width: 90%;      
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;     
  }
 
  .suite {
     background-image: url("/mettkillian.github.io/final-project/images/bed1200.jpg");
     min-height: 700px;
+ }
+
+.rescall {
+  right:20vw;
+  top: 195px;
+  padding: 25px;
 }
+
+.paysonsec {  
+  width: 60%;  
+  display: grid;
+  grid-template-columns: 1fr 1fr;    
+  }
+
+article div:nth-child(1) {
+  order:1;
+}
+article div:nth-child(2) {
+  order:2;    
+}
+article div:nth-child(3) {
+  order:4;
+}
+article div:nth-child(4) {
+  order:3;
+}
+article div:nth-child(5) {
+  order:5;
+}
+article div:nth-child(6) {
+  order:6;
+}
+
+
+.payson {
+   width: 100%;
+      
+}
+
+.paysoninfo {
+  width: 100%;
+  height: 100%;
+  font-size: .8vw;
+  padding-top: 3vw;
+   
+}
+
+.land {
+  background-image: url("/mettkillian.github.io/final-project/images/landscape1200.jpg");
+  min-height: 700px;
+}
+
+.services{
+  background-image: url("/mettkillian.github.io/final-project/images/table1200.jpg");
+  min-height: 700px;
+}
+
+.reserve {
+  background-image: url("/mettkillian.github.io/final-project/images/wedding1200.jpg");
+  min-height: 700px;
+}
+.bridal {
+  background-image: url("/mettkillian.github.io/final-project/images/bride1200.jpg");
+  min-height: 700px;
+}
+.contpage {
+  display: -webkit-inline-flex;
+  align-items: center;
+}
+.container {
+     
+  width: 400px;
+  margin-right: 20px;          
+     
+}
+.container h2 {  
+  font-size: 32px;  
+}
+
+.container p {
+  font-size: 18px;
+}
+
+#map {   
+  
+  width: 60vw;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 5vw;
+  max-width: 800px;
+            
+}
+.fa-phone, .fa-envelope {
+  font-size: 1.05vw;  
+  padding-right: 1vw;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
 
 }

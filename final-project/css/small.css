@@ -294,6 +294,10 @@ main {
      color: #231f20;
      line-height: 20px;     
   }
+ .vid {
+  height: 200;
+  width: 320;
+   }
 
   footer {
     width: 100%;
@@ -383,6 +387,14 @@ main {
   .container p {
     font-size: calc(12px + 1.75vw);
   }
+
+  .tempinfo {           
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;           
+  } 
+
 
   .fa {
     padding: 5px;

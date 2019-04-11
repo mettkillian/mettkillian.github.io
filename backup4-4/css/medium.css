@@ -23,13 +23,66 @@
     .suite {
     background-image: url("/mettkillian.github.io/final-project/images/bed768.jpg");
     min-height: 600px;
-}
+    }
+
+    .rescall {
+      top: 220px;
+      right: 95px;
+    }
+
+    .paysoninfo {            
+      font-size: 2vw; 
+    }
+
+    .land {
+    background-image: url("/mettkillian.github.io/final-project/images/landscape768.jpg");
+    min-height: 600px;
+    }
+
+  .services {    
+      background-image: url("/mettkillian.github.io/final-project/images/table768.jpg");
+      min-height: 600px;
+    }
+
+    .reserve {    
+      background-image: url("/mettkillian.github.io/final-project/images/wedding768.jpg");
+      min-height: 600px;
+    }
+  
+    .bridal {
+      background-image: url("/mettkillian.github.io/final-project/images/bride768.jpg");
+      min-height: 600px;
+    }
 
 div.gallery {
         
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: auto auto;
-    grid-gap: 8px;   
-    
+    grid-gap: 8px;     
  }
+
+ div.amenity {
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto auto;
+  grid-gap: 40px;
+  }
+
+ form {    
+    max-width: 650px;            
+  }
+
+  #map {    
+    height: 300px;     
+  }
+
+ 
+
+  .container h2 {
+      font-size: calc(20px + 1.5vw);
+  }
+
+  .container p {
+    font-size: calc(16px + 1.25vw);
+  }
+
 }
