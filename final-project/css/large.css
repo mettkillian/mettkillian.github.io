@@ -112,7 +112,10 @@ article div:nth-child(6) {
   background-image: url("/mettkillian.github.io/final-project/images/wedding1200.jpg");
   min-height: 700px;
 }
-
+.bridal {
+  background-image: url("/mettkillian.github.io/final-project/images/bride1200.jpg");
+  min-height: 700px;
+}
 .contpage {
   display: -webkit-inline-flex;
   align-items: center;

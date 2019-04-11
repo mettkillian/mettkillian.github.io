@@ -141,6 +141,15 @@ main {
   border: 2px solid #231f20;
  }
 
+ .bridal {
+  display: block;
+  background-image: url("/mettkillian.github.io/final-project/images/bride500.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #231f20;
+ }
  .res {
    display: flex;
  }
