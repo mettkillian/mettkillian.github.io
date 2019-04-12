@@ -4,7 +4,7 @@
 body {
   max-width: 1400px;
   margin: 0 auto; 
-  background-color: #898586; 
+   
 }
 
 header {
@@ -96,6 +96,10 @@ article div:nth-child(6) {
   font-size: .8vw;
   padding-top: 3vw;
    
+}
+
+form {    
+  width: 60%;            
 }
 
 .land {
