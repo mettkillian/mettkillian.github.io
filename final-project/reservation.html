@@ -40,18 +40,24 @@
         <form action="thanks.html" method="get"> 
             <fieldset>
                 <legend>Personal Information:</legend>
-                <label>Full Name: <em>(required)</em></label> 
-            <br>                
-                <input type="text" name="fullName" required pattern="[A-Za-z\s]{5,35}" size="35" autofocus><br>
-                <label>Street Address: <em>(required)</em></label> 
-            <br>                
-                <input type="text" name="address" required pattern="[A-Za-z\s]{5,35}" size="35"><br>
-                <label>City: <em>(required)</em></label> 
-            <br>                
-                <input type="text" name="city" required pattern="[A-Za-z\s]{5,35}" size="35"><br>
-                <label>State: <em>(required)</em></label> 
-            <br>                
-            <select name="state">
+                <label>
+                    Full Name: <em>(required)</em><br>                
+                <input type="text" name="fullName" required pattern="[A-Za-z\s]{5,35}" size="35" autofocus>
+                </label>
+                <br>
+                <label>
+                    Street Address: <em>(required)</em><br>                
+                    <input type="text" name="address" required pattern="[A-Za-z\s]{5,35}" size="35">
+                </label>
+                <br>
+                <label>
+                    City: <em>(required)</em><br>                
+                    <input type="text" name="city" required pattern="[A-Za-z\s]{5,35}" size="35">
+                </label> 
+                <br>
+                <label>
+                    State: <em>(required)</em><br>                
+                    <select name="state">
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -103,72 +109,115 @@
                     <option value="WV">West Virginia</option>
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
-                </select>
+                    </select>
+                </label> 
                 <br>              
-                <label>Phone Number: <em>(required)</em></label>
+                <label>
+                    Phone Number: <em>(required)</em><br>
+                    <input type="tel" name="phone" required pattern="[0-9]{10}" placeholder="555-555-5555" size="11">
+                </label>     
                 <br>
-                <input type="tel" name="phone" required pattern="[0-9]{10}" placeholder="555-555-5555" size="11"><br>
-                <label>Zip Code: <em>(required)</em></label>                
-                <br>
-                <input type="text" name="zip" required pattern="[0-9]{5}" placeholder="00000" size="6"><br>
-                <label>Email:</label>
-                <br>
-                <input type="email" name="mail" placeholder="address@mail.com" size="35"><br>
+                <label>
+                    Zip Code: <em>(required)</em><br>
+                    <input type="text" name="zip" required pattern="[0-9]{5}" placeholder="00000" size="6">
+                </label> 
+                    <br>
+                <label>
+                    Email:<br>
+                    <input type="email" name="mail" placeholder="address@mail.com" size="35">
+                </label>  
+                    <br>
             </fieldset>
     
             <fieldset>            
                 <legend>Reservation Information:</legend>
-                <label>Arrival Date:</label>
-                <br>
-                <input type="date" name="arrdate"><br>
-                <label>Departure Date:</label>
-                <br>
-                <input type="date" name="depdate"><br>
-                <label>Reservation Type:</label>
-                <br>
-                <input type="text" name="resType" list="rtype">
-                <datalist id="rtype">
+                <label>
+                    Arrival Date:<br>
+                    <input type="date" name="arrdate">
+                </label>  
+                    <br>
+                <label>
+                    Departure Date:<br>
+                    <input type="date" name="depdate">
+                </label>  
+                    <br>
+                <label>
+                    Reservation Type:<br>              
+                    <input type="text" name="resType" list="rtype">
+                    <datalist id="rtype">
                     <option value="Suites"></option>
                     <option value="Reception"></option>
                     <option value="Luncheon"></option>
                     <option value="Extended Stay"></option>                    
-                </datalist>
+                    </datalist>
+                </label>  
                 <br>
-                <label>Hotel:</label>
-                <br>        
-                <select name="Location">
+                <label>
+                    Hotel:<br>        
+                    <select name="Location">
                     <option value="0" disabled selected>Select Location</option>
                     <option value="1">Oakland</option> 
                     <option value="2">Provo City Center</option>
                     <option value="3">Ogden</option>
                     <option value="4">Payson</option>                 
-                </select><br>
-                <label>Number of guests <em>(required)</em></label>                
-                <br>
-                <input type="text" name="guests" required pattern="[0-9]{1,3}" size="6">
-                <br>            
+                    </select>
+                </label>  
+                    <br>
+                <label>
+                    Number of rooms <em>(required)</em><br>
+                    <input type="text" name="rooms" required pattern="[0-9]{1,3}" size="6">
+                </label> 
+                    <br>  
+                <label>
+                    Number of guests <em>(required)</em><br>
+                    <input type="text" name="guests" required pattern="[0-9]{1,3}" size="6">
+                </label>    
+                    <br>
+                <label>
+                    Hotel:<br>        
+                    <select name="roomtype">
+                    <option value="0" disabled selected>Select room type</option>
+                    <option value="1">Suite</option> 
+                    <option value="2">King</option>
+                    <option value="3">Queen</option>
+                    <option value="4">Double</option> 
+                    <option value="5">Studio</option>                
+                    </select>
+                </label>                                             
             </fieldset>
             <fieldset>
                 <legend>Payment Information:</legend>
-                <label>Major Credit Card</label>
-                <br>
-                <img src="https://www.merchantequip.com/image/?logos=v%7cm%7ca&height=32" alt="Merchant Equipment Store Credit Card Logos"/></a>
-                <br>
-                <input type="radio" name="cctype"><span> Visa</span>                
-                <input type="radio" name="cctype"><span> MC</span>   
-                <input type="radio" name="cctype"><span> Amex</span>
-                <br>                
-                <label>Credit Card Number <em>(required)</em></label> 
-                <br>                
-                <input type="text" name="ccnumber" required pattern="[0-9]{12,16}" size="20"><br>
-                <label>Expiration Date <em>(required)</em></label><br>
-                <input type="text" name="exdate" required pattern="[0-9, /]{7}" placeholder="mm/yyyy" size="7"><br>
-                <label>CCV <em>(required)</em></label><br>
-                <input type="text" name="ccvnum" required pattern="[0-9]{3}" size="7"><br>
+                <label>
+                    Major Credit Card<br>
+                    <img src="https://www.merchantequip.com/image/?logos=v%7cm%7ca&height=32" alt="Merchant Equipment Store Credit Card Logos"/></a>
+                    <br>
+                    <input type="radio" name="cctype"><span> Visa</span>                
+                    <input type="radio" name="cctype"><span> MC</span>   
+                    <input type="radio" name="cctype"><span> Amex</span>
+                </label>  
+                    <br>                
+                <label>
+                    Credit Card Number <em>(required)</em><br>                
+                    <input type="text" name="ccnumber" required pattern="[0-9]{12,16}" size="20">
+                </label>  
+                    <br>
+                <label>
+                    Expiration Date <em>(required)</em><br>
+                    <input type="text" name="exdate" required pattern="[0-9, /]{7}" placeholder="mm/yyyy" size="7">
+                </label>  
+                    <br>
+                <label>
+                    CCV <em>(required)</em><br>
+                    <input type="text" name="ccvnum" required pattern="[0-9]{3}" size="7">
+                </label>  
+                    <br>
             </fieldset> 
             <fieldset>
                 <legend>Event Details:</legend>
-                <textarea name="text" placeholder="Tell us about your event..."></textarea>
+                <label>
+                    Tell us about your event:
+                    <textarea name="text"></textarea>
+                </label>  
             </fieldset>
              <br>
             <input class="smbutton" type="submit" name="submitbutton" value="Submit">

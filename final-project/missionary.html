@@ -82,31 +82,39 @@
             </section>    
         </article>
 
-            <form action="thanks.html" method="get">             
+        <form action="thanks.html" method="get"> 
                 <fieldset>
-                    <legend>Contact us:</legend>
-                    <label>Full Name: <em>(required)</em></label> 
-                <br>                
-                    <input type="text" name="fullName" required pattern="[A-Za-z\s]{5,35}" placeholder="first name last name"size="35" autofocus><br>
-                    <label>Email:</label>
-                <br>
-                    <input type="email" name="mail" placeholder="address@mail.com" size="35"><br>
-                    <label>Phone Number: <em>(required)</em></label>
-                <br>
-                    <input type="tel" name="phone" required pattern="[0-9]{10}" placeholder="555-555-5555" size="11"><br>
-                    <label>Zip Code: <em>(required)</em></label>
-                <br>
-                    <input type="text" name="zip" required pattern="[0-9]{5}" placeholder="00000" size="6"><br>
-                    
+                    <legend>Contact us:</legend><br>
+                    <label> 
+                        Full Name: <em>(required)</em><br>                           
+                        <input type="text" name="fullName" required pattern="[A-Za-z\s]{5,35}" placeholder="first name last name" size="35" autofocus>
+                    </label>
+                        <br>
+                    <label>
+                        Email:<br>
+                        <input type="email" name="mail" placeholder="address@mail.com" size="35"><br>
+                    </label>
+                    <label>
+                        Phone Number: <em>(required)</em><br>
+                        <input type="tel" name="phone" required pattern="[0-9]{10}" placeholder="555-555-5555" size="11"><br>
+                    </label>
+                    <label>
+                        Zip Code: <em>(required)</em><br>                    
+                        <input label="zip" type="text" name="zip" required pattern="[0-9]{5}" placeholder="00000" size="6"><br>
+                    </label>
+                </fieldset>
+    
                 <fieldset>
-                    <legend>How may we help you?:</legend>
-                    <textarea name="text"></textarea>
+                    <legend>How may we help you?</legend>
+                    <label>
+                        We welcome your comments:<br>                
+                        <textarea name="text"></textarea><br>
+                    </label>
                 </fieldset>
                  <br>
                 <input class="smbutton" type="submit" name="submitbutton" value="Submit">
-                <input type="hidden" name="hidden" value="thanks.html">
-                <input type="button" class= "smbutton" value="Back" onclick="history.back()">
-            </form>       
+                <input type="hidden" name="hidden" value="thanks.html"> 
+            </form>         
     </main>  
    
     <aside class="contpage">        
