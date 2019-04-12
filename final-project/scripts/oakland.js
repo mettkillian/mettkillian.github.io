@@ -153,7 +153,8 @@ function TempleInfo(jsonObj) {
     myArticle.appendChild(endowmentHead);
     myArticle.appendChild(endowmentList);
     myArticle.appendChild(closureHead);
-    myArticle.appendChild(closureList);      
+    myArticle.appendChild(closureList);
+        
     
      }
     article.appendChild(myArticle);         
