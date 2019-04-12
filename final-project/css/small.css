@@ -207,11 +207,7 @@ legend {
   background-repeat: no-repeat;
   border: 2px solid #231f20;
  }
- .res {
-   display: flex;
- }
-
- 
+  
   .thanks {
     height: 300px;
     display: block;
@@ -377,10 +373,11 @@ legend {
     width: 100%;            
     }
 
-    fieldset {   
+    fieldset {
+    display: flex;
+    flex-direction: column;   
     width: 100%;   
-    background-color: #bcd1d1;
-    display: table;               
+    background-color: #bcd1d1;                  
     }
 
     input, datalist, select {
@@ -394,10 +391,13 @@ legend {
 
    .smbutton {
      opacity: .92;
-     padding: 5px 18px;
+     padding: 5px 10px;
      background-color: #231f20;
      color: #eaeaea;
-     text-decoration: none;         
+     text-decoration: none;
+     margin-bottom: 30px;
+     position: relative;
+     margin-right: 80%;              
    }
 
    .smbutton:hover {    
@@ -416,7 +416,7 @@ legend {
 
   #map {    
     height: 250px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     text-align: justify;    
     opacity: none;

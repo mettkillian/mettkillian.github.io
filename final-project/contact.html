@@ -56,20 +56,29 @@
                     Zip Code: <em>(required)</em><br>                    
                     <input label="zip" type="text" name="zip" required pattern="[0-9]{5}" placeholder="00000" size="6"><br>
                 </label>
+                <label>
+                        How did you hear about us?:<br>        
+                        <select name="reason">
+                        <option value="0" disabled selected>Please select one</option>
+                        <option value="1">Magazine</option> 
+                        <option value="2">Website</option>
+                        <option value="3">Radio/Television</option>
+                        <option value="4">Other</option>                 
+                        </select>
+                    </label>  
+                        <br>
             </fieldset>
 
             <fieldset>
-                <legend>How may we help you?</legend>
+                    <legend>How may we help you?</legend>                    
                 <label>
-                    We welcome your comments:<br>                
-                    <textarea name="text"></textarea><br>
+                    We welcome your questions and comments:
+                    <textarea name="text"></textarea>
                 </label>
-            </fieldset>
-             <br>
-            <input class="smbutton" type="submit" name="submitbutton" value="Submit">
-            <input type="hidden" name="hidden" value="thanks.html"> 
-        </form>         
-        <br>       
+                </fieldset>         
+        </form>             
+        <input class="smbutton" type="submit" name="submitbutton" value="Submit">
+        <input type="hidden" name="hidden" value="thanks.html"> 
     </main>
     
     <aside class="contpage">        

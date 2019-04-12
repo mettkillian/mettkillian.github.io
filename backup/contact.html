@@ -4,7 +4,7 @@
   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Temple View Inn information and reservation forms contact page">
+      <meta name="description" content="Temple View Inn contact us, find our location, and infromation page">
       <meta name="author" content="Dainon Snow">
       <title>Temple View Inn and Suites Contact Page</title>
       <link href="https://fonts.googleapis.com/css?family=Neuton%7cKarma%7cDancing+Script" rel="stylesheet">
@@ -27,10 +27,9 @@
                         <li><a href="services.html">Services</a></li>
                         <li class="active"><a href="contact.html">Contact us</a></li>                                         
                     </ul>                       
-            </nav>
-            
+            </nav>            
             <header>
-               <img src="images\logo.jpg">
+              <img src="images/logo.jpg" alt="Temple View Inn Logo">
               <h1 class="logo">Temple View Inn & Suites</h1>                   
             </header>
         </div>     
@@ -39,68 +38,63 @@
     <main>
         <form action="thanks.html" method="get"> 
             <fieldset>
-                <legend><h2>Contact us:</h2></legend>
-                <label>Full Name: <em>(required)</em></label> 
-            <br>                
-                <input type="text" name="fullName" required pattern="[A-Za-z\s]{5,35}" placeholder="first name last name"size="35" autofocus><br>
-                <label>Email:</label>
-            <br>
-                <input type="email" name="mail" placeholder="address@mail.com" size="35"><br>
-                <label>Phone Number: <em>(required)</em></label>
-            <br>
-                <input type="tel" name="phone" required pattern="[0-9]{10}" placeholder="555-555-5555" size="11"><br>
-                <label>Zipcode: <em>(required)</em></label>
-            <br>
-                <input type="text" name="zip" required pattern="[0-9]{5}" placeholder="00000" size="6"><br>
-            
+                <legend>Contact us:</legend><br>
+                <label> 
+                    Full Name: <em>(required)</em><br>                           
+                    <input type="text" name="fullName" required pattern="[A-Za-z\s]{5,35}" placeholder="first name last name" size="35" autofocus>
+                </label>
+                    <br>
+                <label>
+                    Email:<br>
+                    <input type="email" name="mail" placeholder="address@mail.com" size="35"><br>
+                </label>
+                <label>
+                    Phone Number: <em>(required)</em><br>
+                    <input type="tel" name="phone" required pattern="[0-9]{10}" placeholder="555-555-5555" size="11"><br>
+                </label>
+                <label>
+                    Zip Code: <em>(required)</em><br>                    
+                    <input label="zip" type="text" name="zip" required pattern="[0-9]{5}" placeholder="00000" size="6"><br>
+                </label>
+            </fieldset>
 
             <fieldset>
-                <legend>How may we help you?:</legend>
-                <textarea name="text"></textarea>
+                <legend>How may we help you?</legend>
+                <label>
+                    We welcome your comments:<br>                
+                    <textarea name="text"></textarea><br>
+                </label>
             </fieldset>
              <br>
             <input class="smbutton" type="submit" name="submitbutton" value="Submit">
             <input type="hidden" name="hidden" value="thanks.html"> 
         </form>         
-        <br>
-        
-
-         
-         
+        <br>       
     </main>
     
     <aside class="contpage">        
             <div class="container">
-                    <h2>Temple View Inn & Suites</h2>
-                      <p>Corporate Offices<br>
-                        4800 Montgomery Ln #300<br>
-                        Bethesda, MD 20814<br>
-                       <span class="fa fa-envelope"></span>email: contact@templeinn.com<br>
-                       <span class="fa fa-phone"></span>tel: 301-555-1234<br>
-           
-                       <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-                       <a href="https://twitter.com" class="fa fa-twitter"></a>
-                       <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                       <a href="https://www.pinterest.com" class="fa fa-pinterest"></a>
-                      </p> 
+                <h2>Temple View Inn & Suites</h2>
+                    <p>Corporate Offices<br>
+                    4800 Montgomery Ln #300<br>
+                    Bethesda, MD 20814<br>
+                    <span class="fa fa-envelope"></span>email: contact@templeinn.com<br>
+                    <span class="fa fa-phone"></span>tel: 301-555-1234<br>           
+                    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+                    <a href="https://www.pinterest.com" class="fa fa-pinterest"></a>
+                    </p> 
               </div> 
-              <div id="map"></div>
- 
-     <br> 
+              <div id="map"></div> 
+            <br> 
     </aside>
-    
-
 
     <footer>
-
         <p>&copy; All Rights Reserved | Temple View Inn & Suites | <a class="footlink" href="resources.html">Resources and Accrediation  </a> | <span id="todaysdate"></span><br></p>
-
     </footer>
-
+    <script src="scripts/hamburger.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    <script src="scripts/map.js"></script>
 </body>
-
-<script src="scripts/hamburger.js"></script>
-<script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
-<script src="scripts/map.js"></script>
-
 </html>

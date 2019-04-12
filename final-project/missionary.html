@@ -81,7 +81,8 @@
                 </div>                
             </section>    
         </article>
-
+        <br>
+        <hr>
         <form action="thanks.html" method="get"> 
                 <fieldset>
                     <legend>Contact us:</legend><br>
@@ -91,9 +92,70 @@
                     </label>
                         <br>
                     <label>
-                        Email:<br>
-                        <input type="email" name="mail" placeholder="address@mail.com" size="35"><br>
+                        Address:<br>
+                        <input type="address" name="address" size="35"><br>
                     </label>
+                    <label>
+                            City: <em>(required)</em><br>                
+                            <input type="text" name="city" required pattern="[A-Za-z\s]{5,35}" size="35">
+                        </label> 
+                        <br>
+                        <label>
+                            State: <em>(required)</em><br>                
+                            <select name="state">
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District Of Columbia</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                            </select>
+                        </label> 
                     <label>
                         Phone Number: <em>(required)</em><br>
                         <input type="tel" name="phone" required pattern="[0-9]{10}" placeholder="555-555-5555" size="11"><br>
@@ -102,19 +164,22 @@
                         Zip Code: <em>(required)</em><br>                    
                         <input label="zip" type="text" name="zip" required pattern="[0-9]{5}" placeholder="00000" size="6"><br>
                     </label>
+                    <label>
+                        Email:<br>
+                        <input type="email" name="mail" placeholder="address@email.com" size="35"><br>
+                    </label>
                 </fieldset>
     
                 <fieldset>
-                    <legend>How may we help you?</legend>
-                    <label>
-                        We welcome your comments:<br>                
-                        <textarea name="text"></textarea><br>
-                    </label>
-                </fieldset>
-                 <br>
-                <input class="smbutton" type="submit" name="submitbutton" value="Submit">
-                <input type="hidden" name="hidden" value="thanks.html"> 
-            </form>         
+                    <legend>How may we help you?</legend>                    
+                <label>
+                    We welcome your questions and comments:
+                    <textarea name="text"></textarea>
+                </label>
+                </fieldset>                
+            </form>
+            <input class="smbutton" type="submit" name="submitbutton" value="Submit">
+            <input type="hidden" name="hidden" value="thanks.html">           
     </main>  
    
     <aside class="contpage">        

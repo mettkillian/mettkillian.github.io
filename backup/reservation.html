@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Temple View Inn information and reservation forms contact page">
       <meta name="author" content="Dainon Snow">
-      <title>Temple View Inn and Suites Contact Page</title>
+      <title>Temple View Inn and Suites Reservations</title>
       <link href="https://fonts.googleapis.com/css?family=Neuton%7cKarma%7cDancing+Script" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet'>
@@ -18,40 +18,46 @@
 
     <div class="reserve">
         <div class="navspace">
-            <nav> 
-                <button onclick="menuToggle()">&#9776; Menu</button>    
-                    <ul id="primaryNav" class="hide">            
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="temples.html">Temples</a></li>
-                        <li class="active"><a href="reservation.html">Reservations</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="contact.html">Contact us</a></li>                                         
-                    </ul>                       
-            </nav>
+        <nav> 
+            <button onclick="menuToggle()">&#9776; Menu</button>    
+            <ul id="primaryNav" class="hide">            
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li class="active"><a href="reservation.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact us</a></li>                                         
+            </ul>                       
+        </nav>
             
-            <header>
-               <img src="images\logo.jpg">
-              <h1 class="logo">Temple View Inn & Suites</h1>                   
-            </header>
+        <header>
+            <img src="images/logo.jpg" alt="Temple View Inn Logo">
+            <h1 class="logo">Temple View Inn & Suites</h1>                   
+        </header>
         </div>     
     </div>
 
     <main class="res">
         <form action="thanks.html" method="get"> 
             <fieldset>
-                <legend><h2>Personal Information:</h2></legend>
-                <label>Full Name: <em>(required)</em></label> 
-            <br>                
-                <input type="text" name="fullName" required pattern="[A-Za-z\s]{5,35}" size="35" autofocus><br>
-                <label>Street Address: <em>(required)</em></label> 
-            <br>                
-                <input type="text" name="address" required pattern="[A-Za-z\s]{5,35}" size="35"><br>
-                <label>City: <em>(required)</em></label> 
-            <br>                
-                <input type="text" name="city" required pattern="[A-Za-z\s]{5,35}"size="35"><br>
-                <label>State: <em>(required)</em></label> 
-            <br>                
-            <select name="state">
+                <legend>Personal Information:</legend>
+                <label>
+                    Full Name: <em>(required)</em><br>                
+                <input type="text" name="fullName" required pattern="[A-Za-z\s]{5,35}" size="35" autofocus>
+                </label>
+                <br>
+                <label>
+                    Street Address: <em>(required)</em><br>                
+                    <input type="text" name="address" required pattern="[A-Za-z\s]{5,35}" size="35">
+                </label>
+                <br>
+                <label>
+                    City: <em>(required)</em><br>                
+                    <input type="text" name="city" required pattern="[A-Za-z\s]{5,35}" size="35">
+                </label> 
+                <br>
+                <label>
+                    State: <em>(required)</em><br>                
+                    <select name="state">
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -103,118 +109,146 @@
                     <option value="WV">West Virginia</option>
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
-                </select><br>				
-                
-                
-                <label>Phone Number: <em>(required)</em></label>
-            <br>
-                <input type="tel" name="phone" required pattern="[0-9]{10}" placeholder="555-555-5555" size="11"><br>
-                <label>Zipcode: <em>(required)</em></label>                
-            <br>
-                <input type="text" name="zip" required pattern="[0-9]{5}" placeholder="00000" size="6"><br>
-                <label>Email:</label>
-            <br>
-                <input type="email" name="mail" placeholder="address@mail.com" size="35"><br>
+                    </select>
+                </label> 
+                <br>              
+                <label>
+                    Phone Number: <em>(required)</em><br>
+                    <input type="tel" name="phone" required pattern="[0-9]{10}" placeholder="555-555-5555" size="11">
+                </label>     
+                <br>
+                <label>
+                    Zip Code: <em>(required)</em><br>
+                    <input type="text" name="zip" required pattern="[0-9]{5}" placeholder="00000" size="6">
+                </label> 
+                    <br>
+                <label>
+                    Email:<br>
+                    <input type="email" name="mail" placeholder="address@mail.com" size="35">
+                </label>  
+                    <br>
             </fieldset>
     
-            <fieldset>
-                <legend><h2>Reservation Information:</h2></legend>
-                <label>Arrival Date:</label>
-            <br>
-                <input type="date" name="arrdate"><br>
-                <label>Departure Date:</label>
-            <br>
-                <input type="date" name="depdate"><br>
-                <label>Reservation Type:</label>
-            <br>
-                <input type="text" name="resType" list="rtype">
-                <datalist id="rtype">
+            <fieldset>            
+                <legend>Reservation Information:</legend>
+                <label>
+                    Arrival Date:<br>
+                    <input type="date" name="arrdate">
+                </label>  
+                    <br>
+                <label>
+                    Departure Date:<br>
+                    <input type="date" name="depdate">
+                </label>  
+                    <br>
+                <label>
+                    Reservation Type:<br>              
+                    <input type="text" name="resType" list="rtype">
+                    <datalist id="rtype">
                     <option value="Suites"></option>
                     <option value="Reception"></option>
                     <option value="Luncheon"></option>
                     <option value="Extended Stay"></option>                    
-                </datalist><br>
-
-             
-            <br>
-                <select name="Location">
+                    </datalist>
+                </label>  
+                <br>
+                <label>
+                    Hotel:<br>        
+                    <select name="Location">
                     <option value="0" disabled selected>Select Location</option>
                     <option value="1">Oakland</option> 
                     <option value="2">Provo City Center</option>
                     <option value="3">Ogden</option>
                     <option value="4">Payson</option>                 
-                </select><br>
-                <label>Number of guests <em>(required)</em></label>                
-            <br>
-                <input type="text" name="guests" required pattern="[0-9]{1,3}" size="6"><br>
-            
+                    </select>
+                </label>  
+                    <br>
+                <label>
+                    Number of rooms <em>(required)</em><br>
+                    <input type="text" name="rooms" required pattern="[0-9]{1,3}" size="6">
+                </label> 
+                    <br>  
+                <label>
+                    Number of guests <em>(required)</em><br>
+                    <input type="text" name="guests" required pattern="[0-9]{1,3}" size="6">
+                </label>    
+                    <br>
+                <label>
+                    Hotel:<br>        
+                    <select name="roomtype">
+                    <option value="0" disabled selected>Select room type</option>
+                    <option value="1">Suite</option> 
+                    <option value="2">King</option>
+                    <option value="3">Queen</option>
+                    <option value="4">Double</option> 
+                    <option value="5">Studio</option>                
+                    </select>
+                </label>                                             
             </fieldset>
             <fieldset>
-                <legend><h2>Payment Information:</h2></legend>
-                <label>Major Credit Card</label>
-            <br>
-            <a href="http://www.merchantequip.com/information-center/credit-card-logos/" target="_blank"><img src="https://www.merchantequip.com/image/?logos=v|m|a&height=32"
-            alt="Merchant Equipment Store Credit Card Logos"/></a><br>
-                <input type="radio" name="cctype"><span> Visa</span>                
-                <input type="radio" name="cctype"><span> MC</span>   
-                <input type="radio" name="cctype"><span> Amex</span>
-                <br>
-                
-                <label>Credit Card Number <em>(required)</em></label> 
-            <br>                
-                <input type="text" name="ccnumber" required pattern="[0-9]{12,16}" size="20"><br>
-                <label>Expiration Date <em>(required)</em></label><br>
-                <input type="text" name="exdate" required pattern="[0-9, /]{7}" placeholder="mm/yyyy" size="7"><br>
-                <label>CCV <em>(required)</em></label><br>
-                <input type="text" name="ccvnum" required pattern="[0-9]{3}" size="7"><br>
+                <legend>Payment Information:</legend>
+                <label>
+                    Major Credit Card<br>
+                    <img src="https://www.merchantequip.com/image/?logos=v%7cm%7ca&height=32" alt="Merchant Equipment Store Credit Card Logos"/></a>
+                    <br>
+                    <input type="radio" name="cctype"><span> Visa</span>                
+                    <input type="radio" name="cctype"><span> MC</span>   
+                    <input type="radio" name="cctype"><span> Amex</span>
+                </label>  
+                    <br>                
+                <label>
+                    Credit Card Number <em>(required)</em><br>                
+                    <input type="text" name="ccnumber" required pattern="[0-9]{12,16}" size="20">
+                </label>  
+                    <br>
+                <label>
+                    Expiration Date <em>(required)</em><br>
+                    <input type="text" name="exdate" required pattern="[0-9, /]{7}" placeholder="mm/yyyy" size="7">
+                </label>  
+                    <br>
+                <label>
+                    CCV <em>(required)</em><br>
+                    <input type="text" name="ccvnum" required pattern="[0-9]{3}" size="7">
+                </label>  
+                    <br>
             </fieldset> 
-
             <fieldset>
-                <legend><h2>Event Details:</h2></legend>
-                <textarea name="text" placeholder="Tell us about your event..."></textarea>
+                <legend>Event Details:</legend>
+                <label>
+                    Tell us about your event:
+                    <textarea name="text"></textarea>
+                </label>  
             </fieldset>
              <br>
             <input class="smbutton" type="submit" name="submitbutton" value="Submit">
             <input type="hidden" name="hidden" value="thanks.html"> 
         </form>         
-        <br>
-
-         
-         
+            <br>         
     </main>
     
     <aside class="contpage">        
-            <div class="container">
-                    <h2>Temple View Inn & Suites</h2>
-                      <p>Corporate Offices<br>
-                        4800 Montgomery Ln #300<br>
-                        Bethesda, MD 20814<br>
-                       <span class="fa fa-envelope"></span>email: contact@templeinn.com<br>
-                       <span class="fa fa-phone"></span>tel: 301-555-1234<br>
-           
-                       <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-                       <a href="https://twitter.com" class="fa fa-twitter"></a>
-                       <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                       <a href="https://www.pinterest.com" class="fa fa-pinterest"></a>
-                      </p> 
-              </div> 
-              <div id="map"></div>
- 
-     <br> 
+        <div class="container">
+        <h2>Temple View Inn & Suites</h2>
+        <p>Corporate Offices<br>
+            4800 Montgomery Ln #300<br>
+            Bethesda, MD 20814<br>
+            <span class="fa fa-envelope"></span>email: contact@templeinn.com<br>
+            <span class="fa fa-phone"></span>tel: 301-555-1234<br>           
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            <a href="https://www.pinterest.com" class="fa fa-pinterest"></a>
+            </p> 
+            </div> 
+            <div id="map"></div> 
+        <br> 
     </aside>
-    
-
 
     <footer>
-
         <p>&copy; All Rights Reserved | Temple View Inn & Suites | <a class="footlink" href="resources.html">Resources and Accrediation  </a> | <span id="todaysdate"></span><br></p>
-
     </footer>
-
+    <script src="scripts/hamburger.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    <script src="scripts/map.js"></script>
 </body>
-
-<script src="scripts/hamburger.js"></script>
-<script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
-<script src="scripts/map.js"></script>
-
 </html>

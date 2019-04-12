@@ -30,9 +30,7 @@
       right: 95px;
     }
 
-    .paysoninfo {            
-      font-size: 2vw; 
-    }
+   
 
     .land {
     background-image: url("/mettkillian.github.io/final-project/images/landscape768.jpg");
@@ -49,7 +47,31 @@
       min-height: 600px;
     }
   
-    
+    .bridal {
+      background-image: url("/mettkillian.github.io/final-project/images/bride768.jpg");
+      min-height: 600px;
+    }
+
+    .paysonext {
+      
+      background-image: url("/mettkillian.github.io/final-project/images/paysonext768.jpg");
+      min-height: 600px;     
+     }
+
+     .oaklandext {     
+      background-image: url("/mettkillian.github.io/final-project/images/oakland768.jpg");
+      min-height: 600px;
+     }
+
+     .cityext {     
+      background-image: url("/mettkillian.github.io/final-project/images/citycenter768.jpg");
+      min-height: 600px;
+     }
+
+     .ogdext {
+      background-image: url("/mettkillian.github.io/final-project/images/ogden768.jpg");
+      min-height: 600px;
+     }
 
 div.gallery {
         
@@ -65,14 +87,12 @@ div.gallery {
   }
 
  form {    
-    max-width: 650px;            
+    width: 70%;            
   }
 
   #map {    
     height: 300px;     
   }
-
- 
 
   .container h2 {
       font-size: calc(20px + 1.5vw);
@@ -82,4 +102,11 @@ div.gallery {
     font-size: calc(16px + 1.25vw);
   }
 
+  .refdata {
+    width: 550px;
+  }
+
+  .paysonsec {  
+    width: 70%;    
+  }
 }

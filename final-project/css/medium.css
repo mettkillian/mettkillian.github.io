@@ -109,4 +109,8 @@ div.gallery {
   .paysonsec {  
     width: 70%;    
   }
+
+  .smbutton {    
+    margin-right: 60%;              
+  }
 }

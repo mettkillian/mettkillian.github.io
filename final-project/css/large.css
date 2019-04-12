@@ -101,10 +101,22 @@ article div:nth-child(6) {
  text-align: center;
 }
 
+
 form {    
-  width: 60%;            
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+
 }
 
+fieldset { 
+  width: 320px; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+
+}
 .land {
   background-image: url("/mettkillian.github.io/final-project/images/landscape1200.jpg");
   min-height: 700px;
@@ -180,6 +192,11 @@ form {
 
 .refdata {
   width: 650px;
+}
+
+.smbutton {
+  
+  margin-right: 45%;              
 }
 
 }
