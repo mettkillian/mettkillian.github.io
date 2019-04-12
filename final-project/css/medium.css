@@ -106,4 +106,8 @@ div.gallery {
     font-size: calc(16px + 1.25vw);
   }
 
+  .refdata {
+    width: 550px;
+  }
+
 }
