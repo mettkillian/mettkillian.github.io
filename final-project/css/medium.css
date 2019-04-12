@@ -30,9 +30,7 @@
       right: 95px;
     }
 
-    .paysoninfo {            
-      font-size: 2vw; 
-    }
+   
 
     .land {
     background-image: url("/mettkillian.github.io/final-project/images/landscape768.jpg");
@@ -96,8 +94,6 @@ div.gallery {
     height: 300px;     
   }
 
- 
-
   .container h2 {
       font-size: calc(20px + 1.5vw);
   }
@@ -110,4 +106,7 @@ div.gallery {
     width: 550px;
   }
 
+  .paysonsec {  
+    width: 70%;    
+  }
 }
