@@ -194,7 +194,8 @@ fieldset {
 }
 
 .smbutton {  
-  margin-right: 45%;              
+  margin-right: 45%;
+  width: 70px;              
 }
 
 }
