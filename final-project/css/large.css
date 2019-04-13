@@ -25,33 +25,33 @@ nav {
 
 nav button {
     display: none;
-   }
+}
 
-   nav ul.hide {
+nav ul.hide {
     display: flex; 
     flex-direction: row;
-   }
+}
       
-  nav ul  {
+nav ul  {
     display: flex; 
     flex-direction: row; 
-  }
+}
 
-  nav li {
+nav li {
     border-top: none;  
-  }
+}
  
 
- div.gallery { 
+div.gallery { 
     width: 90%;      
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;     
- }
+}
 
- .suite {
+.suite {
     background-image: url("/mettkillian.github.io/final-project/images/bed1200.jpg");
     min-height: 700px;
- }
+}
 
 .rescall {
   right:20vw;
@@ -62,29 +62,32 @@ nav button {
 .paysonsec {  
   width: 60%;  
   display: grid;
-  grid-template-columns: 1fr 1fr;
-      
-  }
+  grid-template-columns: 1fr 1fr;      
+}
 
 article div:nth-child(1) {
   order:1;
 }
+
 article div:nth-child(2) {
   order:2;    
 }
+
 article div:nth-child(3) {
   order:4;
 }
+
 article div:nth-child(4) {
   order:3;
 }
+
 article div:nth-child(5) {
   order:5;
 }
+
 article div:nth-child(6) {
   order:6;
 }
-
 
 .payson {
    width: 100%;      
@@ -101,13 +104,11 @@ article div:nth-child(6) {
  text-align: center;
 }
 
-
 form {    
   width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-
 }
 
 fieldset { 
@@ -115,8 +116,8 @@ fieldset {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
-
 }
+
 .land {
   background-image: url("/mettkillian.github.io/final-project/images/landscape1200.jpg");
   min-height: 700px;
@@ -139,33 +140,32 @@ fieldset {
 .paysonext {  
   background-image: url("/mettkillian.github.io/final-project/images/paysonext1200.jpg");
   min-height: 700px;  
- }
+}
 
- .oaklandext {     
+.oaklandext {     
   background-image: url("/mettkillian.github.io/final-project/images/oakland1200.jpg");
   min-height: 700px;
- }
+}
 
- .cityext {     
+.cityext {     
   background-image: url("/mettkillian.github.io/final-project/images/citycenter1200.jpg");
   min-height: 700px;
- }
+}
 
- .ogdext {
+.ogdext {
   background-image: url("/mettkillian.github.io/final-project/images/ogden1200.jpg");
   min-height: 700px;
- }
+}
 
 .contpage {
   display: -webkit-inline-flex;
   align-items: center;
 }
-.container {
-     
+.container {     
   width: 400px;
-  margin-right: 20px;          
-     
+  margin-right: 20px;    
 }
+
 .container h2 {  
   font-size: 32px;  
 }
@@ -175,14 +175,13 @@ fieldset {
 }
 
 #map {   
-  
   width: 60vw;
   margin-left: 20px;
   margin-bottom: 20px;
   margin-right: 5vw;
-  max-width: 800px;
-            
+  max-width: 800px;            
 }
+
 .fa-phone, .fa-envelope {
   font-size: 1.05vw;  
   padding-right: 1vw;
@@ -194,8 +193,7 @@ fieldset {
   width: 650px;
 }
 
-.smbutton {
-  
+.smbutton {  
   margin-right: 45%;              
 }
 

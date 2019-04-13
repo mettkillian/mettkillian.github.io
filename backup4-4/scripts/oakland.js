@@ -2,12 +2,12 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFpbm9uIiwiYSI6ImNqdGtzZXJiajJ6YW00MG11MzB1M
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11',
-center: [-111.737441, 40.036675],
+center: [-122.200406, 37.809045],
 zoom: 13
 });
 
 let weatherRequest = new XMLHttpRequest();
-weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?zip=84651&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
+weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?zip=94602&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
 weatherRequest.send();
 weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
@@ -72,7 +72,7 @@ function TempleInfo(jsonObj) {
     var data = jsonObj['temples'];
      for (i = 0; i < data.length; i++) {
         var name = data[i].name;
-        if ((name.includes("Payson")) == false) {
+        if ((name.includes("Oakland")) == false) {
         continue;
     }       
     var tempName=document.createElement('h2');
@@ -153,7 +153,8 @@ function TempleInfo(jsonObj) {
     myArticle.appendChild(endowmentHead);
     myArticle.appendChild(endowmentList);
     myArticle.appendChild(closureHead);
-    myArticle.appendChild(closureList);      
+    myArticle.appendChild(closureList);
+        
     
      }
     article.appendChild(myArticle);         

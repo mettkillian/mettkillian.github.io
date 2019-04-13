@@ -4,9 +4,9 @@
   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Temple View Inn information Services and Features">
+      <meta name="description" content="Temple View Inn Amenities, Features, and Services Page">
       <meta name="author" content="Dainon Snow">
-      <title>Temple View Inn and Suites Services Page</title>
+      <title>Temple View Inn and Suites Amenities Page</title>
       <link href="https://fonts.googleapis.com/css?family=Neuton%7cKarma%7cDancing+Script" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet'>
@@ -17,34 +17,32 @@
     </head>
 
 <body>
-
-        <div class="services">
+    <div class="services">
         <div class="navspace">
             <nav> 
                 <button onclick="menuToggle()">&#9776; Menu</button>    
-                    <ul id="primaryNav" class="hide">            
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="temples.html">Temples</a></li>
-                        <li><a href="reservation.html">Reservations</a></li>
-                        <li class="active"><a href="services.html">Services</a></li>
-                        <li><a href="contact.html">Contact us</a></li>                                         
-                    </ul>                       
+                <ul id="primaryNav" class="hide">            
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li class="active"><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact us</a></li>                                         
+                </ul>                       
             </nav>
             
             <header>
-               <img src="images\logo.jpg">
+              <img src="images/logo.jpg" alt="Temple View Inn Logo">
               <h1 class="logo">Temple View Inn & Suites</h1>                   
             </header>
         </div>     
     </div>
 
     <main>
-            <article class="hmtemple">
-                    <h1>Specialized Services</h1>
-                    <br>
-                    <section class="paysonsec">
-            
-                        <div>
+         <article>
+            <h1 class="bl">Receptions and Amenities</h1>
+                <br>
+                <section class="paysonsec">            
+                    <div>
                         <img class="payson" src="images/fhc.jpg" alt="Family History Center">                        
                         </div>
             
@@ -59,7 +57,20 @@
                         </div>
                         
                         <div>
-                        <img class="payson" src="images/pool.jpg" alt="Indoor Pool">                                
+                            <img class="payson" src="images/receptions.jpg" alt="Wedding Reception Center">                              
+                        </div>
+            
+                        <div class="paysoninfo">
+                            <ul><h2>Reception Center</h2>
+                                <li>Full-service Reception Hall</li>
+                                <li>Kitchen area for warming and preparing food</li>
+                                <li>Catering Service with light menu</li>
+                                <li>Daily low-cost light lunch for temple patrons</li>                                    
+                            </ul>                           
+                        </div>
+                        
+                        <div>
+                            <img class="payson" src="images/pool.jpg" alt="Indoor Pool">                                       
                         </div>
             
                         <div class="paysoninfo">
@@ -68,62 +79,40 @@
                                 <li>Excercise Room, Indoor Pool</li>
                                 <li>Continental Breakfast, WiFi Access, Smart TVs</li>
                                 <li>Family History Consulation and family ordinance card service</li>
-                        </ul>
-                        </div>
-                        
-                        <div>
-                                <img class="payson" src="images/receptions.jpg" alt="Wedding Reception Center">                                
-                        </div>
-            
-                        <div class="paysoninfo">
-                                <ul><h2>Catering and Reception Center</h2>
-                                    <li>Full-service Reception Hall</li>
-                                    <li>Kitchen area for warming and preparing food</li>
-                                    <li>Catering Service with light menu</li>
-                                    <li>Daily low-cost light lunch for temple patrons</article></li>
-                                    
-                            </ul>
-                        </div> 
-                        <a class="back" href="services.html">Back to Services</a>             
-                    </section>  
-                              
+                            </ul>   
+                        </div>                                   
+                    </section>                   
                 </article>
-                
-    </main>
 
-    
+                <form>
+                    <input type="button" class= "smbutton" value="Back" onclick="history.back()">
+                </form> 
+                
+    </main>    
    
     <aside class="contpage">        
-            <div class="container">
-                    <h2>Temple View Inn & Suites</h2>
-                      <p>Corporate Offices<br>
-                        4800 Montgomery Ln #300<br>
-                        Bethesda, MD 20814<br>
-                       <span class="fa fa-envelope"></span>email: contact@templeinn.com<br>
-                       <span class="fa fa-phone"></span>tel: 301-555-1234<br>           
-                       <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-                       <a href="https://twitter.com" class="fa fa-twitter"></a>
-                       <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                       <a href="https://www.pinterest.com" class="fa fa-pinterest"></a>
-                      </p>            
-                </div> 
-    <div id="map"></div> 
- 
+        <div class="container">
+            <h2>Temple View Inn & Suites</h2>
+            <p>Corporate Offices<br>
+            4800 Montgomery Ln #300<br>
+            Bethesda, MD 20814<br>
+            <span class="fa fa-envelope"></span>email: contact@templeinn.com<br>
+            <span class="fa fa-phone"></span>tel: 301-555-1234<br>           
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            <a href="https://www.pinterest.com" class="fa fa-pinterest"></a>
+            </p>            
+        </div> 
+        <div id="map"></div> 
      <br> 
     </aside>
-    
-
 
     <footer>
-
         <p>&copy; All Rights Reserved | Temple View Inn & Suites | <a class="footlink" href="resources.html">Resources and Accrediation  </a> | <span id="todaysdate"></span><br></p>
-
     </footer>
-
+    <script src="scripts/hamburger.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    <script src="scripts/map.js"></script>
 </body>
-
-<script src="scripts/hamburger.js"></script>
-<script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
-<script src="scripts/map.js"></script>
-
 </html>

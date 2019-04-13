@@ -1,97 +1,92 @@
 @media (min-width: 768px) {
 
-    header {
-        height: 180px;
-        top: 350px;
-    }
+  header {
+      height: 180px;
+      top: 350px;
+  }
 
   
-    header img {        
-        
-        margin: 5%;
-        height: 130px;         
+  header img {         
+      margin: 5%;
+      height: 130px;    
+  }
     
-    }
-    
-    .logo {
-        
-        font-family: Dancing Script;
-        font-size: 3.25rem;
-        margin-right: 5%;    
-    }
+  .logo {        
+      font-family: Dancing Script;
+      font-size: 3.25rem;
+      margin-right: 5%;    
+  }
 
-    .suite {
-    background-image: url("/mettkillian.github.io/final-project/images/bed768.jpg");
-    min-height: 600px;
-    }
+  .suite {
+     background-image: url("/mettkillian.github.io/final-project/images/bed768.jpg");
+     min-height: 600px;
+  }
 
-    .rescall {
+  .rescall {
       top: 220px;
       right: 95px;
-    }
+  }
 
    
 
-    .land {
-    background-image: url("/mettkillian.github.io/final-project/images/landscape768.jpg");
-    min-height: 600px;
-    }
+  .land {
+      background-image: url("/mettkillian.github.io/final-project/images/landscape768.jpg");
+      min-height: 600px;
+  }
 
   .services {    
       background-image: url("/mettkillian.github.io/final-project/images/table768.jpg");
       min-height: 600px;
-    }
+  }
 
-    .reserve {    
+  .reserve {    
       background-image: url("/mettkillian.github.io/final-project/images/wedding768.jpg");
       min-height: 600px;
-    }
+  }
   
-    .bridal {
+  .bridal {
       background-image: url("/mettkillian.github.io/final-project/images/bride768.jpg");
       min-height: 600px;
-    }
+  }
 
-    .paysonext {
-      
-      background-image: url("/mettkillian.github.io/final-project/images/paysonext768.jpg");
-      min-height: 600px;     
-     }
+  .paysonext {      
+       background-image: url("/mettkillian.github.io/final-project/images/paysonext768.jpg");
+       min-height: 600px;     
+  }
 
-     .oaklandext {     
-      background-image: url("/mettkillian.github.io/final-project/images/oakland768.jpg");
-      min-height: 600px;
-     }
+  .oaklandext {     
+       background-image: url("/mettkillian.github.io/final-project/images/oakland768.jpg");
+       min-height: 600px;
+  }
 
-     .cityext {     
+  .cityext {     
       background-image: url("/mettkillian.github.io/final-project/images/citycenter768.jpg");
       min-height: 600px;
-     }
+  }
 
-     .ogdext {
+  .ogdext {
       background-image: url("/mettkillian.github.io/final-project/images/ogden768.jpg");
       min-height: 600px;
-     }
+  }
 
-div.gallery {
-        
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: auto auto;
-    grid-gap: 8px;     
- }
+  div.gallery {        
+      grid-template-columns: 1fr 1fr; 
+      grid-template-rows: auto auto;
+      grid-gap: 8px;     
+  }
 
- div.amenity {
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: auto auto;
-  grid-gap: 40px;
+  div.amenity {
+      grid-template-columns: 1fr 1fr; 
+      grid-template-rows: auto auto;
+      grid-gap: 40px;
   }
 
  form {    
-    width: 70%;            
+      width: 70%;            
   }
 
   #map {    
-    height: 300px;     
+      height: 300px;     
   }
 
   .container h2 {
@@ -99,18 +94,18 @@ div.gallery {
   }
 
   .container p {
-    font-size: calc(16px + 1.25vw);
+      font-size: calc(16px + 1.25vw);
   }
 
   .refdata {
-    width: 550px;
+      width: 550px;
   }
 
   .paysonsec {  
-    width: 70%;    
+      width: 70%;    
   }
 
   .smbutton {    
-    margin-right: 60%;              
+      margin-right: 60%;              
   }
 }
