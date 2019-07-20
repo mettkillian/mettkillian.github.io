@@ -16,17 +16,23 @@ body {
 h1 {
     font-size: 1.95rem;
     color: rgba(175, 6, 6, 0.911);
-    text-align: center;
-    
+    text-align: center;    
 }
 
 h2 {
     font-size: 1.0rem;
     text-align: center;
-    }
+    color: #000;    
+}
 
 h3 {
     font-size: 0.75rem;
+}
+
+.scores {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(175, 6, 6, 0.911);    
 }
 
 footer {
