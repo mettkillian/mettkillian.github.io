@@ -1,0 +1,44 @@
+
+*{margin: 0; border: border-box;}
+
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: red;
+}
+
+h2 {
+    font-size: 1.0rem;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 400px;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: rgb(58, 13, 13);
+    color: rgba(245, 245, 245, 0.658);
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    float: right;
+}
+
+footer {
+    font-size: 0.7rem;
+}
